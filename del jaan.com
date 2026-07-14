@@ -1,27 +1,37 @@
-<!-- Dil Jaan 1400 Automated Response System -->
-<div id="dj-auto-responder" style="font-family: Arial, sans-serif; direction: rtl; border: 2px solid #00aa6c; padding: 20px; border-radius: 10px; max-width: 500px; margin: 20px auto; background-color: #ffffff;">
-    <h3 style="color: #00aa6c; text-align: center;">Dil Jaan 1400 ویلفیئر سسٹم</h3>
-    <p style="text-align: center;">السلام علیکم! دل جان 1400 نیٹ ورک پر خوش آمدید۔ اپنا مسئلہ منتخب کریں:</p>
+index.html<!-- مرکزی ہیڈلائنز (Heading Tags) -->
+<h1 style="text-align: center; color: #1e3c72; font-family: 'Nafees', sans-serif; margin-top: 20px;">
+    دل جان 1400 ویلفیئر پروجیکٹ
+</h1>
+<h3 style="text-align: center; color: #f39c12; font-family: 'Nafees', sans-serif; margin-bottom: 30px;">
+    موبائل فون کنکشن اور آفیشل سوشل میڈیا پورٹلزhttps://diljaan1400.com
+</h3>
+https://tiktok.com/@diljaan1400https://youtube.com/@diljaan1400
+<!-- بٹنز کی خوبصورت ترتیب (Buttons Container) -->
+<div style="text-align: center; max-width: 600px; margin: 0 auto; padding: 10px; direction: rtl;">
     
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-        <button onclick="showResponse('ration')" style="background-color: #e8f5e9; border: 1px solid #00aa6c; padding: 12px; text-align: right; cursor: pointer; border-radius: 5px; font-weight: bold;">1. راشن اور امداد کی درخواست</button>
-        <button onclick="showResponse('medical')" style="background-color: #e8f5e9; border: 1px solid #00aa6c; padding: 12px; text-align: right; cursor: pointer; border-radius: 5px; font-weight: bold;">2. طبی امداد اور ادویات</button>
-        <button onclick="showResponse('education')" style="background-color: #e8f5e9; border: 1px solid #00aa6c; padding: 12px; text-align: right; cursor: pointer; border-radius: 5px; font-weight: bold;">3. بچوں کی تعلیم اور اسکولنگ</button>
-    </div>
+    <!-- آفیشل ویب سائٹ بٹن -->https://facebook.com/diljaan1400
+    <a href="https://diljaan1400.com" style="display: block; background-color: #16a085; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+        🌐 آفیشل ویب سائٹ وزٹ کریں
+    </a>
 
-    <div id="response-box" style="margin-top: 20px; padding: 15px; background-color: #f1f8e9; border-right: 5px solid #00aa6c; display: none; line-height: 1.6;"></div>
-</div>
+    <!-- فیس بک بٹن -->https://wa.me/923430450007
+    <a href="https://facebook.com/diljaan1400" style="display: block; background-color: #3b5998; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+        🔵 فیس بک پیج سے جڑیں
+    </a>
 
-<script>
-function showResponse(type) {
-    const box = document.getElementById('response-box');
-    box.style.display = 'block';
-    if(type === 'ration') {
-        box.innerHTML = "<strong>راشن امداد:</strong> برائے مہربانی اپنا نام، شناختی کارڈ نمبر اور گھر کے افراد کی تعداد لکھ کر بھیجیں۔ ہماری ٹیم تصدیق کے بعد رابطہ کرے گی۔";
-    } else if(type === 'medical') {
-        box.innerHTML = "<strong>طبی امداد:</strong> ادویات یا میڈیکل ٹیسٹ کی ضرورت کی صورت میں ڈاکٹر کا نسخہ (Prescription) واٹس ایپ یا یہاں اپلوڈ کریں۔";
-    } else if(type === 'education') {
-        box.innerHTML = "<strong>بچوں کی تعلیم:</strong> دل جان 1400 پروجیکٹ کے تحت یتیم اور مستحق بچوں کو اسکول داخلہ کے لیے ہم کوشاں ہیں۔ بچے کی تفصیلات فراہم کریں۔";
-    }
-}
-</script>
+    <!-- یوٹیوب چینل بٹن -->
+    <a href="https://youtube.com/@diljaan1400" style="display: block; background-color: #ff0000; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+        🔴 یوٹیوب چینل سبسکرائب کریں
+    </a>
+
+    <!-- واٹس ایپ رابطہ بٹن -->
+    <a href="https://wa.me/923000000000" style="display: block; background-color: #25d366; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+        🟢 واٹس ایپ پر براہ راست رابطہ کریں
+    </a>
+
+    <!-- ٹک ٹاک اکاؤنٹ بٹن -->
+    <a href="https://tiktok.com/@diljaan1400" style="display: block; background-color: #000000; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+        ⚫ ٹک ٹاک پر فالو کریں
+    </a>
+
+</div>https://
