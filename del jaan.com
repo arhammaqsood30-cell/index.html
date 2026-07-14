@@ -14,7 +14,7 @@ https://tiktok.com/@diljaan1400https://youtube.com/@diljaan1400
         🌐 آفیشل ویب سائٹ وزٹ کریں
     </a>
 
-    <!-- فیس بک بٹن -->https://wa.me/923430450007
+    <!-- فیس بک بٹن -->https://
     <a href="https://facebook.com/diljaan1400" style="display: block; background-color: #3b5998; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
         🔵 فیس بک پیج سے جڑیں
     </a>
@@ -25,7 +25,7 @@ https://tiktok.com/@diljaan1400https://youtube.com/@diljaan1400
     </a>
 
     <!-- واٹس ایپ رابطہ بٹن -->
-    <a href="https://wa.me/923000000000" style="display: block; background-color: #25d366; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
+    <a href="https://wa.me/923430450007" style="display: block; background-color: #25d366; color: white; padding: 12px; margin: 10px 0; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">
         🟢 واٹس ایپ پر براہ راست رابطہ کریں
     </a>
 
