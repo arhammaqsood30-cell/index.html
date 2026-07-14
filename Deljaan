@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil Jaan 1400 Official</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; text-align: center; margin: 0; padding: 20px; }
+        .container {
+            background: white;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; margin-bottom: 20px; }
+        
+        /* یوٹیوب لائیو ویڈیو اسکرین */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+            border-radius: 8px;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+        }
+
+        /* 4 رنگ برنگے بٹن */
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .btn {
+            display: block;
+            padding: 12px 5px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: opacity 0.3s;
+        }
+        .btn:hover { opacity: 0.8; }
+        .btn-yt { background-color: #FF0000; }
+        .btn-wa { background-color: #25D366; }
+        .btn-fb { background-color: #1877F2; }
+        .btn-tt { background-color: #010101; }
+
+        /* اضافی لنکس کی پٹی */
+        .extra-links {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 16px;
+        }
+        .extra-links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Dil Jaan 1400 Official</h1>
+    <p>ہمارے پروجیکٹ کی یوٹیوب لائیو اسٹریم اور سوشل میڈیا اکاؤنٹس۔</p>
+    
+    <!-- صرف یوٹیوب لائیو اسٹریم -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/live_stream?channel=UC-q8_z9M7gWzU5_hI8H6pCQ" frameborder="0" allowfullscreen></iframe>
+    </div>https:/
+
+    <!-- صرف سوشل میڈیا کنکشن بٹنز -->
+    <div class="btn-grid">
+        <a href="https://youtube.com/@diljaan1400" target="_blank" class="btn btn-yt">یوٹیوب لائیو</a>
+        <a href="https://wa.me/923430450007" target="_blank" class="btn btn-wa">واٹس ایپ</a>
+        <a href="https://facebook.com/diljaan1400" target="_blank" class="btn btn-fb">فیس بک پیج</a>
+        <a href="https://tiktok.com/@diljaan1400" target="_blank" class="btn btn-tt">ٹک ٹاک</a>
+    </div>https://tiktok.com/@diljaan1400
+
+    <!-- صرف بنیادی سوشل لنکس (بغیر کسی فارم کے) -->https://facebook.com/diljaan1400
+    <div class="extra-links">
+        <a href="https://instagram.com/diljaan1400" target="_blank">انسٹاگرام</a> | 
+        <a href="https://threads.net/@diljaan1400" target="_blank">تھریڈز</a>
+    </div>https://youtube.com/@diljaan1400
+</div>https://www.youtube.com/embed/live_stream?channel=UC-q8_z9M7gWzU5_hI8H6pCQ
+
+</body>https://youtube.com/@diljaan1400
+</html>https://instagram.com/diljaan1400
