@@ -1,0 +1,138 @@
+  indexhtml    html
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آٹو نیٹ ورک لنکنگ سسٹم</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #121212; color: #fff; padding: 20px; }
+        .btn { background: #00ff6c; color: #000; border: none; padding: 15px 30px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; margin: 10px; width: 80%; max-width: 300px; }
+        .status { margin-top: 20px; font-size: 16px; color: #00e5ff; }
+    </style>
+</head>
+<body>
+
+    <h2>🔗 ماسٹر کنٹرول سسٹم</h2>
+    <p>تمام پرانے کوڈز ریموو کر دیے گئے ہیں۔ نیچے والا بٹن سب ایکٹو کر دے گا۔</p>
+
+    <!-- شارٹ کٹ اور ایکٹویشن بٹن -->
+    <button class="btn" onclick="activateSystem()">🚀 نیٹ ورک ایکٹو کریں</button>
+    <button class="btn" onclick="likeAndConnect()">👍 لائک اور لنک جوڑیں</button>
+
+    <div class="status" id="displayStatus">سسٹم فی الحال: آف لائن</div>
+
+    <script>
+        // آٹو ایکٹو کرنے کا فنکشن
+        function activateSystem() {
+            document.getElementById('displayStatus').innerText = "سسٹم: کامیابی سے ایکٹو ہو گیا ہے! (شارٹ کٹ تیار)";
+            console.log("نیٹ ورک شارٹ کٹ ایکٹو کر دیا گیا ہے۔");
+            alert("سسٹم ایکٹو ہو گیا! اب بار بار کوڈ بدلنے کا عذاب ختم۔");
+        }
+
+        // لائک اور لنکس کو آپس میں جوڑنے کا فنکشن
+        function likeAndConnect() {
+            document.getElementById('displayStatus').innerText = "لنکس: آپس میں جڑ چکے ہیں اور لائک فیچر آن ہے۔";
+            console.log("لائک اور لنکنگ پروسیس مکمل۔");
+        }
+    </script>
+</body>
+</html>html
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آٹو نیٹ ورک لنکنگ سسٹم</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #121212; color: #fff; padding: 20px; }
+        .btn { background: #00ff6c; color: #000; border: none; padding: 15px 30px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; margin: 10px; width: 80%; max-width: 300px; }
+        .status { margin-top: 20px; font-size: 16px; color: #00e5ff; }
+    </style>
+</head>
+<body>
+
+    <h2>🔗 ماسٹر کنٹرول سسٹم</h2>
+    <p>تمام پرانے کوڈز ریموو کر دیے گئے ہیں۔ نیچے والا بٹن سب ایکٹو کر دے گا۔</p>
+
+    <!-- شارٹ کٹ اور ایکٹویشن بٹن -->
+    <button class="btn" onclick="activateSystem()">🚀 نیٹ ورک ایکٹو کریں</button>
+    <button class="btn" onclick="likeAndConnect()">👍 لائک اور لنک جوڑیں</button>
+
+    <div class="status" id="displayStatus">سسٹم فی الحال: آف لائن</div>
+
+    <script>
+        // آٹو ایکٹو کرنے کا فنکشن
+        function activateSystem() {
+            document.getElementById('displayStatus').innerText = "سسٹم: کامیابی سے ایکٹو ہو گیا ہے! (شارٹ کٹ تیار)";
+            console.log("نیٹ ورک شارٹ کٹ ایکٹو کر دیا گیا ہے۔");
+            alert("سسٹم ایکٹو ہو گیا! اب بار بار کوڈ بدلنے کا عذاب ختم۔");
+        }
+
+        // لائک اور لنکس کو آپس میں جوڑنے کا فنکشن
+        function likeAndConnect() {
+            document.getElementById('displayStatus').innerText = "لنکس: آپس میں جڑ چکے ہیں اور لائک فیچر آن ہے۔";
+            console.log("لائک اور لنکنگ پروسیس مکمل۔");
+        }
+    </script>
+</body>
+</html>                    <af="#" class="stretched-link">فالو کریں</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- فوٹر -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">© 2026 Dil Jaan 1400. All Rights Reserved.</p>
+            <p class="small text-muted mt-2">انسانیت کی خدمت ہمارا اولین مقصد ہے۔</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>        
+html
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آٹو نیٹ ورک لنکنگ سسٹم</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #121212; color: #fff; padding: 20px; }
+        .btn { background: #00ff6c; color: #000; border: none; padding: 15px 30px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; margin: 10px; width: 80%; max-width: 300px; }
+        .status { margin-top: 20px; font-size: 16px; color: #00e5ff; }
+    </style>
+</head>
+<body>
+
+    <h2>🔗 ماسٹر کنٹرول سسٹم</h2>
+    <p>تمام پرانے کوڈز ریموو کر دیے گئے ہیں۔ نیچے والا بٹن سب ایکٹو کر دے گا۔</p>
+
+    <!-- شارٹ کٹ اور ایکٹویشن بٹن -->
+    <button class="btn" onclick="activateSystem()">🚀 نیٹ ورک ایکٹو کریں</button>
+    <button class="btn" onclick="likeAndConnect()">👍 لائک اور لنک جوڑیں</button>
+
+    <div class="status" id="displayStatus">سسٹم فی الحال: آف لائن</div>
+
+    <script>
+        // آٹو ایکٹو کرنے کا فنکشن
+        function activateSystem() {
+            document.getElementById('displayStatus').innerText = "سسٹم: کامیابی سے ایکٹو ہو گیا ہے! (شارٹ کٹ تیار)";
+            console.log("نیٹ ورک شارٹ کٹ ایکٹو کر دیا گیا ہے۔");
+            alert("سسٹم ایکٹو ہو گیا! اب بار بار کوڈ بدلنے کا عذاب ختم۔");
+        }
+
+        // لائک اور لنکس کو آپس میں جوڑنے کا فنکشن
+        function likeAndConnect() {
+            document.getElementById('displayStatus').innerText = "لنکس: آپس میں جڑ چکے ہیں اور لائک فیچر آن ہے۔";
+            console.log("لائک اور لنکنگ پروسیس مکمل۔");
+        }
+    </script>
+</body>
+</html>
