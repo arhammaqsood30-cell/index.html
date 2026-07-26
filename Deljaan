@@ -3,97 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dil Jaan 1400 Official</title>
+    <title>دل جان 1400 - آفیشل ڈیش بورڈ</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; text-align: center; margin: 0; padding: 20px; }
-        .container {
-            background: white;
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        h1 { color: #2c3e50; margin-bottom: 20px; }
-        
-        /* یوٹیوب لائیو ویڈیو اسکرین */
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            margin: 20px 0;
-            border-radius: 8px;
-            background: #000;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-        }
-
-        /* 4 رنگ برنگے بٹن */
-        .btn-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 10px;
-            margin: 20px 0;
-        }
-        .btn {
-            display: block;
-            padding: 12px 5px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            font-size: 15px;
-            transition: opacity 0.3s;
-        }
-        .btn:hover { opacity: 0.8; }
-        .btn-yt { background-color: #FF0000; }
-        .btn-wa { background-color: #25D366; }
-        .btn-fb { background-color: #1877F2; }
-        .btn-tt { background-color: #010101; }
-
-        /* اضافی لنکس کی پٹی */
-        .extra-links {
-            margin-top: 25px;
-            padding-top: 15px;
-            border-top: 1px solid #eee;
-            font-size: 16px;
-        }
-        .extra-links a {
-            color: #0066cc;
-            text-decoration: none;
-            margin: 0 8px;
-            display: inline-block;
-        }
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+        .header { background: #2c3e50; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .container { max-width: 800px; width: 100%; margin: 30px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); flex: 1; }
+        .welcome-text { text-align: center; font-size: 18px; margin-bottom: 30px; color: #555; }
+        .links-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+        .btn-link { display: flex; align-items: center; justify-content: center; padding: 15px; font-size: 18px; font-weight: bold; text-decoration: none; color: white; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .btn-link:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
+        .youtube { background-color: #ff0000; }
+        .youtube:hover { background-color: #cc0000; }
+        .whatsapp { background-color: #25d366; }
+        .whatsapp:hover { background-color: #1ebe57; }
+        .facebook { background-color: #1877f2; }
+        .facebook:hover { background-color: #166fe5; }
+        .tiktok { background-color: #010101; }
+        .tiktok:hover { background-color: #25f4ee; color: #010101; }
+        .footer { background: #2c3e50; color: white; text-align: center; padding: 15px; font-size: 14px; margin-top: auto; }
+        @media (min-width: 600px) { .links-grid { grid-template-columns: 1fr 1fr; } }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Dil Jaan 1400 Official</h1>
-    <p>ہمارے پروجیکٹ کی یوٹیوب لائیو اسٹریم اور سوشل میڈیا اکاؤنٹس۔</p>
-    
-    <!-- صرف یوٹیوب لائیو اسٹریم -->
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/live_stream?channel=UC-q8_z9M7gWzU5_hI8H6pCQ" frameborder="0" allowfullscreen></iframe>
-    </div>https:/
+    <div class="header">
+        دل جان 1400 ڈیش بورڈ
+    </div>
 
-    <!-- صرف سوشل میڈیا کنکشن بٹنز -->
-    <div class="btn-grid">
-        <a href="https://youtube.com/@diljaan1400" target="_blank" class="btn btn-yt">یوٹیوب لائیو</a>
-        <a href="https://wa.me/923430450007" target="_blank" class="btn btn-wa">واٹس ایپ</a>
-        <a href="https://facebook.com/diljaan1400" target="_blank" class="btn btn-fb">فیس بک پیج</a>
-        <a href="https://tiktok.com/@diljaan1400" target="_blank" class="btn btn-tt">ٹک ٹاک</a>
-    </div>https://tiktok.com/@diljaan1400
+    <div class="container">
+        <p class="welcome-text">خوش آمدید! نیچے دیے گئے بٹنوں پر کلک کر کے آپ میرے تمام سوشل میڈیا اکاؤنٹس اور واٹس ایپ پر رابطہ کر سکتے ہیں۔</p>
+        
+        <div class="links-grid">
+            <!-- یوٹیوب لائیو لنک -->
+            <a href="https://youtube.com" target="_blank" class="btn-link youtube">یوٹیوب چینل</a>
+            
+            <!-- واٹس ایپ چیٹ لنک -->
+            <a href="https://wa.me" target="_blank" class="btn-link whatsapp">واٹس ایپ رابطہ</a>
+            
+            <!-- فیس بک لنک -->
+            <a href="https://facebook.com" target="_blank" class="btn-link facebook">فیس بک پیج</a>
+            
+            <!-- ٹک ٹاک لنک -->
+            <a href="https://tiktok.com" target="_blank" class="btn-link tiktok">ٹک ٹاک اکاؤنٹ</a>
+        </div>
+    </div>
 
-    <!-- صرف بنیادی سوشل لنکس (بغیر کسی فارم کے) -->https://facebook.com/diljaan1400
-    <div class="extra-links">
-        <a href="https://instagram.com/diljaan1400" target="_blank">انسٹاگرام</a> | 
-        <a href="https://threads.net/@diljaan1400" target="_blank">تھریڈز</a>
-    </div>https://youtube.com/@diljaan1400
-</div>https://www.youtube.com/embed/live_stream?channel=UC-q8_z9M7gWzU5_hI8H6pCQ
+    <div class="footer">
+        © 2026 دل جان 1400۔ جملہ حقوق محفوظ ہیں۔
+    </div>
 
-</body>https://youtube.com/@diljaan1400
-</html>https://instagram.com/diljaan1400
+</body>
+</html>
