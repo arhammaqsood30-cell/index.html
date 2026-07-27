@@ -1,33 +1,161 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil Jaan 1400 - Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-# یہاں اپنا 29 لائنوں والا کوڈ پیسٹ کریں
-# آپ کا پچھلا کوڈ ڈیلیٹ ہو گیا تھا
-# اس لیے یہ جگہ خالی ہے تاکہ آپ اپنا کوڈ دوبارہ ڈال سکیں
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px 15px;
+        }
 
-def sample_function():
-    print("براہ کرم اپنا اصل کوڈ یہاں پیسٹ کریں تاکہ میں اسے درست کر سکوں۔")
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background: #1a1a1a;
+            border: 2px solid #d4af37; /* Gold Border */
+            border-radius: 16px;
+            padding: 20px 15px;
+            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+            text-align: center;
+        }
 
-# مثال کے طور پر لائنیں:
-# Line 1
-# Line 2
-# Line 3
-# Line 4
-# Line 5
-# Line 6
-# Line 7
-# Line 8
-# Line 9
-# Line 10
-# Line 11
-# Line 12
-# Line 13
-# Line 14
-# Line 15
-# Line 16
-# Line 17
-# Line 18
-# Line 19
-# Line 20
-# Line 21
-# Line 22
-# Line 23
-# Line 24
+        h2 {
+            color: #d4af37;
+            font-size: 22px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-title {
+            color: #aaaaaa;
+            font-size: 13px;
+            text-align: left;
+            margin: 15px 0 8px 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 10px;
+            background-color: #262626;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 1px solid #333333;
+            transition: all 0.3s ease;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        /* Dedicated Button Colors */
+        .btn-live {
+            background: linear-gradient(135deg, #ff0000, #b30000);
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-wa-net {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-wa-live {
+            background: linear-gradient(135deg, #128c7e, #075e54);
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-gold {
+            border: 1px solid #d4af37;
+            color: #d4af37;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Dil Jaan 1400</h2>
+
+    <!-- Live Streams Section -->
+    <div class="section-title">🔴 Live Updates</div>
+    
+    <!-- 1. YouTube Live Button -->
+    <a href="https://www.youtube.com" target="_blank" class="btn btn-live">
+        📺 YouTube Channel (Live)
+    </a>
+
+    <!-- Main Active Links Section -->
+    <div class="section-title">🔗 Essential Links</div>
+
+    <!-- Link 1 -->
+    <a href="#" target="_blank" class="btn btn-gold">
+        🌐 Link 1
+    </a>
+
+    <!-- Link 2 -->
+    <a href="#" target="_blank" class="btn">
+        🔗 Link 2
+    </a>
+
+    <!-- Link 3 -->
+    <a href="#" target="_blank" class="btn">
+        🔗 Link 3
+    </a>
+
+    <!-- Link 4 -->
+    <a href="#" target="_blank" class="btn">
+        🔗 Link 4
+    </a>
+
+    <!-- Link 5 -->
+    <a href="#" target="_blank" class="btn">
+        🔗 Link 5
+    </a>
+
+    <!-- Link 6 -->
+    <a href="#" target="_blank" class="btn">
+        🔗 Link 6
+    </a>
+
+    <!-- WhatsApp Section -->
+    <div class="section-title">💬 WhatsApp Services</div>
+
+    <!-- WhatsApp Net Activate -->
+    <a href="https://wa.me/+923430450007text=Net%20Activate%20Karne%20Ke%20Liye" target="_blank" class="btn btn-wa-net">
+        📶 WhatsApp - Net Activate
+    </a>
+
+    <!-- WhatsApp Live -->
+    <a href="https://wa.me/+923430450007text=Live%20Support" target="_blank" class="btn btn-wa-live">
+        💬 WhatsApp - Live Support
+    </a>
+
+</div>
+
+</body>
+</html>
