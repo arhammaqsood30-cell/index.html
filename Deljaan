@@ -1,57 +1,33 @@
-<!DOCTYPE html>
-<html lang="ur" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دل جان 1400 - آفیشل ڈیش بورڈ</title>
-    <style>
-        * { box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
-        .header { background: #2c3e50; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .container { max-width: 800px; width: 100%; margin: 30px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); flex: 1; }
-        .welcome-text { text-align: center; font-size: 18px; margin-bottom: 30px; color: #555; }
-        .links-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
-        .btn-link { display: flex; align-items: center; justify-content: center; padding: 15px; font-size: 18px; font-weight: bold; text-decoration: none; color: white; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .btn-link:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
-        .youtube { background-color: #ff0000; }
-        .youtube:hover { background-color: #cc0000; }
-        .whatsapp { background-color: #25d366; }
-        .whatsapp:hover { background-color: #1ebe57; }
-        .facebook { background-color: #1877f2; }
-        .facebook:hover { background-color: #166fe5; }
-        .tiktok { background-color: #010101; }
-        .tiktok:hover { background-color: #25f4ee; color: #010101; }
-        .footer { background: #2c3e50; color: white; text-align: center; padding: 15px; font-size: 14px; margin-top: auto; }
-        @media (min-width: 600px) { .links-grid { grid-template-columns: 1fr 1fr; } }
-    </style>
-</head>
-<body>
 
-    <div class="header">
-        دل جان 1400 ڈیش بورڈ
-    </div>
+# یہاں اپنا 29 لائنوں والا کوڈ پیسٹ کریں
+# آپ کا پچھلا کوڈ ڈیلیٹ ہو گیا تھا
+# اس لیے یہ جگہ خالی ہے تاکہ آپ اپنا کوڈ دوبارہ ڈال سکیں
 
-    <div class="container">
-        <p class="welcome-text">خوش آمدید! نیچے دیے گئے بٹنوں پر کلک کر کے آپ میرے تمام سوشل میڈیا اکاؤنٹس اور واٹس ایپ پر رابطہ کر سکتے ہیں۔</p>
-        
-        <div class="links-grid">
-            <!-- یوٹیوب لائیو لنک -->
-            <a href="https://youtube.com" target="_blank" class="btn-link youtube">یوٹیوب چینل</a>
-            
-            <!-- واٹس ایپ چیٹ لنک -->
-            <a href="https://wa.me" target="_blank" class="btn-link whatsapp">واٹس ایپ رابطہ</a>
-            
-            <!-- فیس بک لنک -->
-            <a href="https://facebook.com" target="_blank" class="btn-link facebook">فیس بک پیج</a>
-            
-            <!-- ٹک ٹاک لنک -->
-            <a href="https://tiktok.com" target="_blank" class="btn-link tiktok">ٹک ٹاک اکاؤنٹ</a>
-        </div>
-    </div>
+def sample_function():
+    print("براہ کرم اپنا اصل کوڈ یہاں پیسٹ کریں تاکہ میں اسے درست کر سکوں۔")
 
-    <div class="footer">
-        © 2026 دل جان 1400۔ جملہ حقوق محفوظ ہیں۔
-    </div>
-
-</body>
-</html>
+# مثال کے طور پر لائنیں:
+# Line 1
+# Line 2
+# Line 3
+# Line 4
+# Line 5
+# Line 6
+# Line 7
+# Line 8
+# Line 9
+# Line 10
+# Line 11
+# Line 12
+# Line 13
+# Line 14
+# Line 15
+# Line 16
+# Line 17
+# Line 18
+# Line 19
+# Line 20
+# Line 21
+# Line 22
+# Line 23
+# Line 24
