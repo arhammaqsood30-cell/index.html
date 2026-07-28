@@ -1,161 +1,78 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="ur" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dil Jaan 1400 - Links</title>
+    <title>Dil Jaan 1400</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #0d0d0d;
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px 15px;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 480px;
-            background: #1a1a1a;
-            border: 2px solid #d4af37; /* Gold Border */
-            border-radius: 16px;
-            padding: 20px 15px;
-            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
-            text-align: center;
-        }
-
-        h2 {
-            color: #d4af37;
-            font-size: 22px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .section-title {
-            color: #aaaaaa;
-            font-size: 13px;
-            text-align: left;
-            margin: 15px 0 8px 5px;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            padding: 14px;
-            margin-bottom: 10px;
-            background-color: #262626;
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: bold;
-            border-radius: 10px;
-            border: 1px solid #333333;
-            transition: all 0.3s ease;
-        }
-
-        .btn:active {
-            transform: scale(0.98);
-        }
-
-        /* Dedicated Button Colors */
-        .btn-live {
-            background: linear-gradient(135deg, #ff0000, #b30000);
-            color: #ffffff;
-            border: none;
-        }
-
-        .btn-wa-net {
-            background: linear-gradient(135deg, #25d366, #128c7e);
-            color: #ffffff;
-            border: none;
-        }
-
-        .btn-wa-live {
-            background: linear-gradient(135deg, #128c7e, #075e54);
-            color: #ffffff;
-            border: none;
-        }
-
-        .btn-gold {
-            border: 1px solid #d4af37;
-            color: #d4af37;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #0d0d0d; color: #fff; text-align: center; padding: 20px 10px; }
+        .container { max-width: 480px; background: #1a1a1a; margin: 0 auto; padding: 20px; border-radius: 12px; border: 2px solid #d4af37; }
+        h2 { color: #d4af37; margin-bottom: 15px; }
+        .section-title { font-size: 13px; color: #aaa; text-align: right; margin: 15px 0 8px 0; border-bottom: 1px solid #333; padding-bottom: 4px; }
+        .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
+        .btn { display: block; width: 100%; text-decoration: none; background: #262626; color: #fff; border: 1px solid #333; padding: 12px; font-size: 14px; font-weight: bold; border-radius: 8px; cursor: pointer; text-align: center; box-sizing: border-box; margin-bottom: 8px; }
+        .btn:hover { background-color: #333; }
+        .btn-fb { background: #1877f2; color: #fff; }
+        .btn-yt { background: #b30000; color: #fff; }
+        .btn-wa-net { background: #25d366; color: #000; }
+        .btn-wa-live { background: #128c7e; color: #fff; }
+        .btn-gold { border-color: #d4af37; color: #d4af37; }
+        
+        /* YouTube Live TV Container */
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; margin-bottom: 15px; border: 1px solid #333; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        
+        #notification-box { display: none; margin-top: 15px; padding: 12px; border-radius: 6px; font-weight: bold; background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; font-size: 14px; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h2>Dil Jaan 1400</h2>
+    <div class="container">
+        <h2>Dil Jaan 1400</h2>
 
-    <!-- Live Streams Section -->
-    <div class="section-title">🔴 Live Updates</div>
-    
-    <!-- 1. YouTube Live Button -->
-    <a href="https://www.youtube.com" target="_blank" class="btn btn-live">
-        📺 YouTube Channel (Live)
-    </a>
+        <!-- یوٹیوب لائیو ٹی وی -->
+        <div class="section-title">📺 یوٹیوب لائیو ٹی وی</div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/live_stream?channel=@DilJaan1400" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.youtube.com/@DilJaan1400/live" target="_blank" class="btn btn-yt" onclick="autoReply('یوٹیوب لائیو')">🔴 Open Live Stream</a>
 
-    <!-- Main Active Links Section -->
-    <div class="section-title">🔗 Essential Links</div>
+        <!-- فیس بک ڈیش بورڈ -->
+        <div class="section-title">📊 فیس بک ڈیش بورڈ</div>
+        <a href="https://facebook.com" target="_blank" class="btn btn-fb" onclick="autoReply('فیس بک ڈیش بورڈ')">📘 Facebook Page & Dashboard</a>
 
-    <!-- Link 1 -->
-    <a href="#" target="_blank" class="btn btn-gold">
-        🌐 Link 1
-    </a>
+        <!-- 6 اہم لنکس (گٹ ہب اور ویب لنکس) -->
+        <div class="section-title">🔗 اہم لنکس (GitHub & Web)</div>
+        <div class="btn-grid">
+            <a href="https://diljaan1400.com/link1" target="_blank" class="btn btn-gold" onclick="autoReply('لنک 1')">🌐 لنک 1</a>
+            <a href="https://diljaan1400.com/link2" target="_blank" class="btn" onclick="autoReply('لنک 2')">🔗 لنک 2</a>
+            <a href="https://diljaan1400.com/link3" target="_blank" class="btn" onclick="autoReply('لنک 3')">🔗 لنک 3</a>
+            <a href="https://diljaan1400.com/link4" target="_blank" class="btn" onclick="autoReply('لنک 4')">🔗 لنک 4</a>
+            <a href="https://diljaan1400.com/link5" target="_blank" class="btn" onclick="autoReply('لنک 5')">🔗 لنک 5</a>
+            <a href="https://diljaan1400.com/link6" target="_blank" class="btn" onclick="autoReply('لنک 6')">🔗 لنک 6</a>
+        </div>
 
-    <!-- Link 2 -->
-    <a href="#" target="_blank" class="btn">
-        🔗 Link 2
-    </a>
+        <!-- واٹس ایپ آٹو ریپلائی سروسز -->
+        <div class="section-title">💬 واٹس ایپ آٹو ریپلائی</div>
+        <a href="https://wa.me/923430450007?text=Net%20Activate%20Karne%20Ke%20Liye" target="_blank" class="btn btn-wa-net" onclick="autoReply('نیٹ ایکٹیویٹ')">📶 WhatsApp - Net Activate</a>
+        <a href="https://wa.me/923430450007?text=Live%20Support" target="_blank" class="btn btn-wa-live" onclick="autoReply('لائیو سپورٹ')">💬 WhatsApp - Live Support</a>
 
-    <!-- Link 3 -->
-    <a href="#" target="_blank" class="btn">
-        🔗 Link 3
-    </a>
+        <!-- آٹو ریپلائی نوٹیفکیشن -->
+        <div id="notification-box"></div>
+    </div>
 
-    <!-- Link 4 -->
-    <a href="#" target="_blank" class="btn">
-        🔗 Link 4
-    </a>
-
-    <!-- Link 5 -->
-    <a href="#" target="_blank" class="btn">
-        🔗 Link 5
-    </a>
-
-    <!-- Link 6 -->
-    <a href="#" target="_blank" class="btn">
-        🔗 Link 6
-    </a>
-
-    <!-- WhatsApp Section -->
-    <div class="section-title">💬 WhatsApp Services</div>
-
-    <!-- WhatsApp Net Activate -->
-    <a href="https://wa.me/+923430450007text=Net%20Activate%20Karne%20Ke%20Liye" target="_blank" class="btn btn-wa-net">
-        📶 WhatsApp - Net Activate
-    </a>
-
-    <!-- WhatsApp Live -->
-    <a href="https://wa.me/+923430450007text=Live%20Support" target="_blank" class="btn btn-wa-live">
-        💬 WhatsApp - Live Support
-    </a>
-
-</div>
+    <script>
+        function autoReply(name) {
+            console.log("Auto Reply System: " + name);
+            var box = document.getElementById("notification-box");
+            box.innerText = "آٹو ریپلائی: " + name + " کی درخواست موصول ہو گئی ہے اور سسٹم ایکٹیو ہے۔";
+            box.style.display = "block";
+            setTimeout(function() {
+                box.style.display = "none";
+            }, 4000);
+        }
+    </script>
 
 </body>
-</html>
+</html>https://www.youtube.com/embed/live_stream?channel=@DilJaan1400
