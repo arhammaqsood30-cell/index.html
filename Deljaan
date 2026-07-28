@@ -16,37 +16,33 @@
             background-color: #111;
             color: #fff;
             text-align: center;
+            line-height: 1.6;
         }
 
         header {
             background-color: #0f5132;
-            padding: 15px;
+            padding: 20px;
             border-bottom: 3px solid #ffc107;
         }
 
         .logo-area {
-            font-size: 26px;
+            font-size: 28px;
             font-weight: bold;
             color: #ffc107;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 15px;
-        }
-
-        /* ٹی وی والی چلتی پٹی */
+        /* چلتی پٹی */
         .ticker-wrap {
             width: 100%;
             background-color: #ffc107;
             color: #000;
             overflow: hidden;
             white-space: nowrap;
-            padding: 10px 0;
+            padding: 12px 0;
             font-weight: bold;
             font-size: 18px;
-            margin-bottom: 25px;
+            border-bottom: 2px solid #0f5132;
+            margin-bottom: 30px;
         }
 
         .ticker-content {
@@ -60,8 +56,14 @@
             100% { transform: translate3d(-100%, 0, 0); }
         }
 
-        /* ویڈیو اپلوڈ اور شیئرنگ ہب */
-        .free-hub {
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* واٹس ایپ بٹن باکس */
+        .wa-box {
             background: #222;
             border: 2px solid #ffc107;
             padding: 25px;
@@ -69,56 +71,61 @@
             margin-bottom: 30px;
         }
 
-        .file-input {
-            margin: 15px 0;
-            padding: 10px;
-            background: #333;
-            border: 1px dashed #ffc107;
-            color: #fff;
-            border-radius: 5px;
-            width: 100%;
-            max-width: 400px;
-        }
-
-        .btn-send {
-            background-color: #0088cc;
+        .btn-wa {
+            display: inline-block;
+            background-color: #25d366;
             color: white;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 25px;
-            font-size: 16px;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-size: 18px;
             font-weight: bold;
-            cursor: pointer;
+            text-decoration: none;
+            margin-top: 15px;
             transition: 0.2s;
         }
 
-        .btn-send:hover {
-            background-color: #0077b3;
+        .btn-wa:hover {
             transform: scale(1.05);
         }
 
-        /* 6 سوشل لنکس */
+        /* سوشل لنکس */
+        .social-title {
+            color: #ffc107;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
         .social-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-            gap: 12px;
+            gap: 15px;
+            margin-bottom: 40px;
         }
 
         .social-btn {
-            background-color: #333;
+            background-color: #222;
             border: 2px solid #444;
             color: #fff;
-            padding: 15px;
+            padding: 18px 10px;
             border-radius: 8px;
             font-weight: bold;
             text-decoration: none;
             transition: 0.3s;
+            display: block;
         }
 
         .social-btn:hover {
-            transform: translateY(-5px);
             background-color: #fff;
             color: #000;
+            border-color: #fff;
+        }
+
+        footer {
+            background: #000;
+            padding: 20px;
+            border-top: 1px solid #333;
+            color: #888;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -131,24 +138,22 @@
     <!-- چلتی پٹی -->
     <div class="ticker-wrap">
         <div class="ticker-content">
-            ★★★ دل جان 1400 ویلفیئر ٹرسٹ: غریب اور مستحقین کے لیے راشن اسکیم اور تعلیمی سپورٹ کا کام جاری ہے... ہم سب کو مل کر انسانیت کا ساتھ دینا ہے... ★★★
+            ★★★ دل جان 1400 ویلفیئر ٹرسٹ: غریب اور مستحقین کے لیے راشن اسکیم اور تعلیمی سپورٹ کا کام جاری ہے... خوش آمدید ★★★
         </div>
     </div>
 
     <div class="container">
         
-        <!-- فری اپلوڈ سیکشن -->
-        <div class="free-hub">
-            <h2>مفت براڈکاسٹنگ سسٹم</h2>
-            <p style="color: #ccc; margin-top: 5px;">یہاں سے اپنی ویڈیو یا فائل سلیکٹ کریں اور اسے ٹیلی گرام کے ذریعے اپنے چینل پر لوڈ کریں:</p>
-            
-            <input type="file" id="mediaFile" class="file-input" accept="video/*,image/*"><br>
-            <button class="btn-send" onclick="sendToTelegram()">ٹیلی گرام پر لوڈ کریں</button>
+        <!-- واٹس ایپ رابطہ سیکشن -->
+        <div class="wa-box">
+            <h2 style="color: #ffc107; margin-bottom: 10px;">ہم سے براہِ راست رابطہ کریں</h2>
+            <p style="color: #ccc;">کسی بھی قسم کے سوال یا مدد کے لیے واٹس ایپ پر بٹن دبائیں:</p>
+            <a href="https://wa.me/923430450007" target="_blank" class="btn-wa">واٹس ایپ پر بات کریں</a>
         </div>
 
-        <h3 style="margin-bottom: 15px; color: #ffc107;">سوشل میڈیا لنکس</h3>
+        <h3 class="social-title">آفیشل لنکس</h3>
         
-        <!-- 6 لنکس -->
+        <!-- 6 سوشل لنکس -->
         <div class="social-grid">
             <a href="https://facebook.com" target="_blank" class="social-btn">Facebook</a>
             <a href="https://youtube.com" target="_blank" class="social-btn">YouTube</a>
@@ -160,41 +165,9 @@
 
     </div>
 
-    <script>
-        function sendToTelegram() {
-            var fileInput = document.getElementById('mediaFile');
-            if (fileInput.files.length === 0) {
-                alert("براہ کرم پہلے کوئی ویڈیو یا تصویر منتخب کریں!");
-                return;
-            }
-            
-            // یہاں اپنا بوٹ ٹوکن پیسٹ کریں
-            var botToken = "YOUR_BOT_TOKEN_HERE"; 
-            var chatId = "@BunnSankersPage"; 
-            var file = fileInput.files[0];
-            
-            var formData = new FormData();
-            formData.append("chat_id", chatId);
-            formData.append("document", file);
-
-            fetch(`https://api.telegram.org/bot${botToken}/sendDocument`, {
-                method: "POST",
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if(data.ok) {
-                    alert("فائل کامیابی کے ساتھ ٹیلی گرام چینل پر اپلوڈ ہو گئی ہے!");
-                } else {
-                    alert("کنکشن کا مسئلہ: براہ کرم بوٹ ٹوکن درست کریں۔");
-                }
-            })
-            .catch(error => {
-                console.error("Error:", error);
-                alert("اپلوڈ کرنے میں کوئی مسئلہ پیش آیا ہے۔");
-            });
-        }
-    </script>
+    <footer>
+        <p>© 2026 دل جان 1400۔ تمام حقوق محفوظ ہیں۔</p>
+    </footer>
 
 </body>
 </html>
