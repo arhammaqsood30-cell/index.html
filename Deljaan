@@ -3,76 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dil Jaan 1400</title>
+    <title>دل جان 1400 آفیشل پورٹل</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-        body { background-color: #0d0d0d; color: #fff; text-align: center; padding: 20px 10px; }
-        .container { max-width: 480px; background: #1a1a1a; margin: 0 auto; padding: 20px; border-radius: 12px; border: 2px solid #d4af37; }
-        h2 { color: #d4af37; margin-bottom: 15px; }
-        .section-title { font-size: 13px; color: #aaa; text-align: right; margin: 15px 0 8px 0; border-bottom: 1px solid #333; padding-bottom: 4px; }
-        .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
-        .btn { display: block; width: 100%; text-decoration: none; background: #262626; color: #fff; border: 1px solid #333; padding: 12px; font-size: 14px; font-weight: bold; border-radius: 8px; cursor: pointer; text-align: center; box-sizing: border-box; margin-bottom: 8px; }
-        .btn:hover { background-color: #333; }
-        .btn-fb { background: #1877f2; color: #fff; }
-        .btn-yt { background: #b30000; color: #fff; }
-        .btn-wa-net { background: #25d366; color: #000; }
-        .btn-wa-live { background: #128c7e; color: #fff; }
-        .btn-gold { border-color: #d4af37; color: #d4af37; }
-        
-        /* YouTube Live TV Container */
-        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; margin-bottom: 15px; border: 1px solid #333; }
-        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-        
-        #notification-box { display: none; margin-top: 15px; padding: 12px; border-radius: 6px; font-weight: bold; background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; font-size: 14px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: #0f5132;
+            padding: 15px;
+            border-bottom: 3px solid #ffc107;
+        }
+
+        .logo-area {
+            font-size: 26px;
+            font-weight: bold;
+            color: #ffc107;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        /* ٹی وی والی چلتی پٹی */
+        .ticker-wrap {
+            width: 100%;
+            background-color: #ffc107;
+            color: #000;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 10px 0;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .ticker-content {
+            display: inline-block;
+            padding-right: 100%;
+            animation: ticker 25s linear infinite;
+        }
+
+        @keyframes ticker {
+            0% { transform: translate3d(100%, 0, 0); }
+            100% { transform: translate3d(-100%, 0, 0); }
+        }
+
+        /* ویڈیو اپلوڈ اور شیئرنگ ہب */
+        .free-hub {
+            background: #222;
+            border: 2px solid #ffc107;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .file-input {
+            margin: 15px 0;
+            padding: 10px;
+            background: #333;
+            border: 1px dashed #ffc107;
+            color: #fff;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .btn-send {
+            background-color: #0088cc;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-send:hover {
+            background-color: #0077b3;
+            transform: scale(1.05);
+        }
+
+        /* 6 سوشل لنکس */
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 12px;
+        }
+
+        .social-btn {
+            background-color: #333;
+            border: 2px solid #444;
+            color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-5px);
+            background-color: #fff;
+            color: #000;
+        }
     </style>
 </head>
 <body>
 
+    <header>
+        <div class="logo-area">دل جان 1400 آفیشل پورٹل</div>
+    </header>
+
+    <!-- چلتی پٹی -->
+    <div class="ticker-wrap">
+        <div class="ticker-content">
+            ★★★ دل جان 1400 ویلفیئر ٹرسٹ: غریب اور مستحقین کے لیے راشن اسکیم اور تعلیمی سپورٹ کا کام جاری ہے... ہم سب کو مل کر انسانیت کا ساتھ دینا ہے... ★★★
+        </div>
+    </div>
+
     <div class="container">
-        <h2>Dil Jaan 1400</h2>
-
-        <!-- یوٹیوب لائیو ٹی وی -->
-        <div class="section-title">📺 یوٹیوب لائیو ٹی وی</div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/live_stream?channel=@DilJaan1400" allowfullscreen></iframe>
-        </div>
-        <a href="https://www.youtube.com/@DilJaan1400/live" target="_blank" class="btn btn-yt" onclick="autoReply('یوٹیوب لائیو')">🔴 Open Live Stream</a>
-
-        <!-- فیس بک ڈیش بورڈ -->
-        <div class="section-title">📊 فیس بک ڈیش بورڈ</div>
-        <a href="https://facebook.com" target="_blank" class="btn btn-fb" onclick="autoReply('فیس بک ڈیش بورڈ')">📘 Facebook Page & Dashboard</a>
-
-        <!-- 6 اہم لنکس (گٹ ہب اور ویب لنکس) -->
-        <div class="section-title">🔗 اہم لنکس (GitHub & Web)</div>
-        <div class="btn-grid">
-            <a href="https://diljaan1400.com/link1" target="_blank" class="btn btn-gold" onclick="autoReply('لنک 1')">🌐 لنک 1</a>
-            <a href="https://diljaan1400.com/link2" target="_blank" class="btn" onclick="autoReply('لنک 2')">🔗 لنک 2</a>
-            <a href="https://diljaan1400.com/link3" target="_blank" class="btn" onclick="autoReply('لنک 3')">🔗 لنک 3</a>
-            <a href="https://diljaan1400.com/link4" target="_blank" class="btn" onclick="autoReply('لنک 4')">🔗 لنک 4</a>
-            <a href="https://diljaan1400.com/link5" target="_blank" class="btn" onclick="autoReply('لنک 5')">🔗 لنک 5</a>
-            <a href="https://diljaan1400.com/link6" target="_blank" class="btn" onclick="autoReply('لنک 6')">🔗 لنک 6</a>
+        
+        <!-- فری اپلوڈ سیکشن -->
+        <div class="free-hub">
+            <h2>مفت براڈکاسٹنگ سسٹم</h2>
+            <p style="color: #ccc; margin-top: 5px;">یہاں سے اپنی ویڈیو یا فائل سلیکٹ کریں اور اسے ٹیلی گرام کے ذریعے اپنے چینل پر لوڈ کریں:</p>
+            
+            <input type="file" id="mediaFile" class="file-input" accept="video/*,image/*"><br>
+            <button class="btn-send" onclick="sendToTelegram()">ٹیلی گرام پر لوڈ کریں</button>
         </div>
 
-        <!-- واٹس ایپ آٹو ریپلائی سروسز -->
-        <div class="section-title">💬 واٹس ایپ آٹو ریپلائی</div>
-        <a href="https://wa.me/923430450007?text=Net%20Activate%20Karne%20Ke%20Liye" target="_blank" class="btn btn-wa-net" onclick="autoReply('نیٹ ایکٹیویٹ')">📶 WhatsApp - Net Activate</a>
-        <a href="https://wa.me/923430450007?text=Live%20Support" target="_blank" class="btn btn-wa-live" onclick="autoReply('لائیو سپورٹ')">💬 WhatsApp - Live Support</a>
+        <h3 style="margin-bottom: 15px; color: #ffc107;">سوشل میڈیا لنکس</h3>
+        
+        <!-- 6 لنکس -->
+        <div class="social-grid">
+            <a href="https://facebook.com" target="_blank" class="social-btn">Facebook</a>
+            <a href="https://youtube.com" target="_blank" class="social-btn">YouTube</a>
+            <a href="https://tiktok.com" target="_blank" class="social-btn">TikTok</a>
+            <a href="https://instagram.com" target="_blank" class="social-btn">Instagram</a>
+            <a href="https://wa.me" target="_blank" class="social-btn">WhatsApp</a>
+            <a href="https://threads.net" target="_blank" class="social-btn">Threads</a>
+        </div>
 
-        <!-- آٹو ریپلائی نوٹیفکیشن -->
-        <div id="notification-box"></div>
     </div>
 
     <script>
-        function autoReply(name) {
-            console.log("Auto Reply System: " + name);
-            var box = document.getElementById("notification-box");
-            box.innerText = "آٹو ریپلائی: " + name + " کی درخواست موصول ہو گئی ہے اور سسٹم ایکٹیو ہے۔";
-            box.style.display = "block";
-            setTimeout(function() {
-                box.style.display = "none";
-            }, 4000);
+        function sendToTelegram() {
+            var fileInput = document.getElementById('mediaFile');
+            if (fileInput.files.length === 0) {
+                alert("براہ کرم پہلے کوئی ویڈیو یا تصویر منتخب کریں!");
+                return;
+            }
+            
+            // یہاں اپنا بوٹ ٹوکن پیسٹ کریں
+            var botToken = "YOUR_BOT_TOKEN_HERE"; 
+            var chatId = "@BunnSankersPage"; 
+            var file = fileInput.files[0];
+            
+            var formData = new FormData();
+            formData.append("chat_id", chatId);
+            formData.append("document", file);
+
+            fetch(`https://api.telegram.org/bot${botToken}/sendDocument`, {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.ok) {
+                    alert("فائل کامیابی کے ساتھ ٹیلی گرام چینل پر اپلوڈ ہو گئی ہے!");
+                } else {
+                    alert("کنکشن کا مسئلہ: براہ کرم بوٹ ٹوکن درست کریں۔");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("اپلوڈ کرنے میں کوئی مسئلہ پیش آیا ہے۔");
+            });
         }
     </script>
 
 </body>
-</html>https://www.youtube.com/embed/live_stream?channel=@DilJaan1400
+</html>
