@@ -1,384 +1,81 @@
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#111827">
-<title>دل جان 1400</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دل جان 1400 - آفیشل پورٹل</title>
+    <style>
+        /* گوگل سٹائل کلر فل ٹاپ بارڈر */
+        .top-border {
+            height: 8px;
+            width: 100%;
+            background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding-top: 20px;
+            text-align: center;
+        }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+        .container {
+            max-width: 600px;
+            margin: 40px auto 20px auto;
+            padding: 20px;
+        }
 
-body{
-    font-family:'Noto Nastaliq Urdu',serif;
-    background:#080d18;
-    color:#fff;
-    line-height:2;
-}
+        h1 { color: #333; margin-bottom: 20px; }
 
-a{
-    text-decoration:none;
-    color:inherit;
-}
+        .btn {
+            display: block;
+            width: 90%;
+            margin: 12px auto;
+            padding: 18px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 12px;
+            font-size: 18px;
+            transition: transform 0.2s;
+        }
 
-header{
-    background:linear-gradient(135deg,#111827,#172554,#3b0764);
-    padding:18px 15px;
-    text-align:center;
-    border-bottom:2px solid #f59e0b;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
+        .jannat-btn { background-color: #ff4081; box-shadow: 0 4px 6px rgba(255, 64, 129, 0.3); }
+        .yt-btn { background-color: #FF0000; }
+        .fb-btn { background-color: #4267B2; }
+        .wa-btn { background-color: #25D366; }
 
-.logo{
-    font-size:30px;
-    font-weight:bold;
-    color:#fbbf24;
-    text-shadow:0 0 15px rgba(251,191,36,.45);
-}
-
-.subtitle{
-    color:#e5e7eb;
-    font-size:14px;
-}
-
-nav{
-    display:flex;
-    justify-content:center;
-    gap:8px;
-    flex-wrap:wrap;
-    margin-top:12px;
-}
-
-nav a{
-    background:rgba(255,255,255,.08);
-    border:1px solid rgba(255,255,255,.15);
-    padding:5px 12px;
-    border-radius:20px;
-    font-size:13px;
-}
-
-nav a:hover{
-    background:#f59e0b;
-    color:#111827;
-}
-
-.hero{
-    min-height:75vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:35px 18px;
-    background:
-    radial-gradient(circle at top,#312e81 0,#080d18 55%);
-}
-
-.hero-box{
-    max-width:850px;
-}
-
-.hero h1{
-    font-size:42px;
-    color:#fbbf24;
-    margin-bottom:12px;
-}
-
-.hero p{
-    font-size:18px;
-    color:#e5e7eb;
-    margin-bottom:25px;
-}
-
-.buttons{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-}
-
-.btn{
-    display:inline-block;
-    padding:10px 20px;
-    border-radius:30px;
-    background:#f59e0b;
-    color:#111827;
-    font-weight:bold;
-    transition:.25s;
-}
-
-.btn:hover{
-    transform:translateY(-3px);
-    box-shadow:0 8px 25px rgba(245,158,11,.3);
-}
-
-.btn.dark{
-    background:#1f2937;
-    color:#fff;
-    border:1px solid #374151;
-}
-
-section{
-    padding:45px 18px;
-    max-width:1100px;
-    margin:auto;
-}
-
-.title{
-    text-align:center;
-    color:#fbbf24;
-    font-size:29px;
-    margin-bottom:28px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:18px;
-}
-
-.card{
-    background:linear-gradient(145deg,#111827,#172033);
-    border:1px solid #263247;
-    border-radius:18px;
-    padding:22px;
-    text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.18);
-}
-
-.card .icon{
-    font-size:38px;
-    margin-bottom:8px;
-}
-
-.card h3{
-    color:#fbbf24;
-    margin-bottom:8px;
-}
-
-.card p{
-    color:#d1d5db;
-    font-size:14px;
-}
-
-.info{
-    background:#0f172a;
-    border-radius:20px;
-    padding:25px;
-    border:1px solid #263247;
-    text-align:center;
-}
-
-.highlight{
-    color:#fbbf24;
-}
-
-.contact{
-    text-align:center;
-    background:linear-gradient(135deg,#1e1b4b,#312e81);
-    border-radius:25px;
-    padding:35px 20px;
-    border:1px solid #4338ca;
-}
-
-.whatsapp{
-    background:#16a34a;
-    color:white;
-    margin-top:15px;
-}
-
-footer{
-    background:#050811;
-    border-top:1px solid #1f2937;
-    text-align:center;
-    padding:25px 15px;
-    color:#9ca3af;
-    font-size:13px;
-}
-
-.notice{
-    margin:20px auto 0;
-    max-width:700px;
-    padding:12px;
-    border-radius:12px;
-    background:rgba(245,158,11,.1);
-    border:1px solid rgba(245,158,11,.25);
-    color:#fde68a;
-}
-
-@media(max-width:600px){
-    .hero h1{
-        font-size:31px;
-    }
-
-    .hero p{
-        font-size:16px;
-    }
-
-    .logo{
-        font-size:25px;
-    }
-
-    section{
-        padding:35px 13px;
-    }
-}
-</style>
+        .video-container {
+            margin-top: 30px;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+        iframe { width: 100%; height: 100%; border-radius: 15px; border: none; }
+    </style>
 </head>
-
 <body>
 
-<header>
-    <div class="logo">دل جان 1400</div>
-    <div class="subtitle">صحت • تعلیم • روزگار • عوامی خدمت</div>
+    <div class="top-border"></div>
 
-    <nav>
-        <a href="#home">ہوم</a>
-        <a href="#health">صحت</a>
-        <a href="#education">تعلیم</a>
-        <a href="#jobs">روزگار</a>
-        <a href="#contact">رابطہ</a>
-    </nav>
-</header>
+    <div class="container">
+        <h1>خوش آمدید - دل جان 1400</h1>
 
-<main>
+        <!-- بٹنز -->
+        <a href="#" class="btn jannat-btn">جنت مرزا سیکشن</a>
+        <a href="#" class="btn yt-btn">یوٹیوب چینل</a>
+        <a href="#" class="btn fb-btn">فیس بک پیج</a>
+        <a href="#" class="btn wa-btn">واٹس ایپ بزنس</a>
 
-<section class="hero" id="home">
-    <div class="hero-box">
-        <h1>دل جان 1400</h1>
-
-        <p>
-            عام عوام کے لیے صحت، تعلیم، معلومات اور روزگار کے مواقع
-            ایک آسان اور خوبصورت پلیٹ فارم پر۔
-        </p>
-
-        <div class="buttons">
-            <a class="btn" href="#health">صحت کی معلومات</a>
-            <a class="btn" href="#education">تعلیم</a>
-            <a class="btn" href="#jobs">روزگار</a>
-            <a class="btn dark" href="#contact">رابطہ کریں</a>
-        </div>
-
-        <div class="notice">
-            ہمارا مقصد: مفید معلومات کو عام لوگوں تک آسان انداز میں پہنچانا۔
+        <!-- ویڈیو سیکشن -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
         </div>
     </div>
-</section>
-
-<section id="health">
-    <h2 class="title">🩺 صحت</h2>
-
-    <div class="grid">
-        <div class="card">
-            <div class="icon">❤️</div>
-            <h3>صحت آگاہی</h3>
-            <p>صحت کے بارے میں عام فہم اور مفید معلومات۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">🥗</div>
-            <h3>غذا</h3>
-            <p>متوازن غذا اور صحت مند طرزِ زندگی سے متعلق معلومات۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">🏃</div>
-            <h3>صحت مند زندگی</h3>
-            <p>روزمرہ زندگی میں صحت کا خیال رکھنے کے آسان طریقے۔</p>
-        </div>
-    </div>
-</section>
-
-<section id="education">
-    <h2 class="title">📚 تعلیم</h2>
-
-    <div class="grid">
-        <div class="card">
-            <div class="icon">🎓</div>
-            <h3>تعلیمی معلومات</h3>
-            <p>طلبہ کے لیے تعلیم، سیکھنے اور آگے بڑھنے کی معلومات۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">💻</div>
-            <h3>ڈیجیٹل تعلیم</h3>
-            <p>موبائل اور انٹرنیٹ کے ذریعے نئی مہارتیں سیکھنے کے مواقع۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">📖</div>
-            <h3>علم سب کے لیے</h3>
-            <p>آسان زبان میں مفید معلومات ہر شخص تک پہنچانے کی کوشش۔</p>
-        </div>
-    </div>
-</section>
-
-<section id="jobs">
-    <h2 class="title">💼 روزگار</h2>
-
-    <div class="grid">
-        <div class="card">
-            <div class="icon">🔎</div>
-            <h3>روزگار کی معلومات</h3>
-            <p>ملازمت اور روزگار سے متعلق مفید معلومات یہاں شامل کی جا سکتی ہیں۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">📱</div>
-            <h3>آن لائن کام</h3>
-            <p>ڈیجیٹل دنیا میں جائز طریقے سے کام سیکھنے کی معلومات۔</p>
-        </div>
-
-        <div class="card">
-            <div class="icon">🚀</div>
-            <h3>نئی مہارتیں</h3>
-            <p>اپنی صلاحیت بڑھائیں اور مستقبل کے لیے خود کو تیار کریں۔</p>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2 class="title">🌟 ہمارا مقصد</h2>
-
-    <div class="info">
-        <p>
-            <span class="highlight">دل جان 1400</span>
-            ایک عوامی معلوماتی پلیٹ فارم ہے جس کا مقصد
-            صحت، تعلیم، روزگار اور مفید معلومات کو عام لوگوں تک
-            آسان زبان میں پہنچانا ہے۔
-        </p>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="contact">
-        <h2 class="title">📞 رابطہ</h2>
-
-        <p>
-            کسی معلومات یا رہنمائی کے لیے ہم سے رابطہ کریں۔
-        </p>
-
-        <a class="btn whatsapp"
-           href="https://wa.me/923430450007"
-           target="_blank">
-           WhatsApp پر رابطہ کریں
-        </a>
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <p>© 2026 دل جان 1400 — تمام حقوق محفوظ ہیں</p>
-    <p>صحت • تعلیم • روزگار • عوامی خدمت</p>
-</footer>
 
 </body>
 </html>
