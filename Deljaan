@@ -3,78 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دل جان 1400 - آفیشل پورٹل</title>
+    <title>دل جان 1400</title>
     <style>
-        /* گوگل سٹائل کلر فل ٹاپ بارڈر */
-        .top-border {
-            height: 8px;
-            width: 100%;
-            background: linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853);
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-        }
-
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
+            font-family: 'Jameel Noori Nastaleeq', Arial, sans-serif;
+            background-color: #f4f7f6;
             margin: 0;
-            padding-top: 20px;
+            padding: 20px;
             text-align: center;
         }
-
         .container {
             max-width: 600px;
-            margin: 40px auto 20px auto;
-            padding: 20px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-
-        h1 { color: #333; margin-bottom: 20px; }
-
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
         .btn {
             display: block;
-            width: 90%;
-            margin: 12px auto;
-            padding: 18px;
-            text-decoration: none;
+            background: #27ae60;
             color: white;
-            font-weight: bold;
-            border-radius: 12px;
+            padding: 12px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
             font-size: 18px;
-            transition: transform 0.2s;
+            transition: 0.3s;
         }
-
-        .jannat-btn { background-color: #ff4081; box-shadow: 0 4px 6px rgba(255, 64, 129, 0.3); }
-        .yt-btn { background-color: #FF0000; }
-        .fb-btn { background-color: #4267B2; }
-        .wa-btn { background-color: #25D366; }
-
-        .video-container {
-            margin-top: 30px;
-            width: 100%;
-            aspect-ratio: 16 / 9;
+        .btn:hover {
+            background: #219653;
         }
-        iframe { width: 100%; height: 100%; border-radius: 15px; border: none; }
     </style>
 </head>
 <body>
 
-    <div class="top-border"></div>
-
     <div class="container">
-        <h1>خوش آمدید - دل جان 1400</h1>
-
-        <!-- بٹنز -->
-        <a href="#" class="btn jannat-btn">جنت مرزا سیکشن</a>
-        <a href="#" class="btn yt-btn">یوٹیوب چینل</a>
-        <a href="#" class="btn fb-btn">فیس بک پیج</a>
-        <a href="#" class="btn wa-btn">واٹس ایپ بزنس</a>
-
-        <!-- ویڈیو سیکشن -->
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" allowfullscreen></iframe>
-        </div>
+        <h1>دل جان 1400</h1>
+        <p>خوش آمدید! ہمارے تمام سوشل میڈیا لنکس اور پلیٹ فارمز تک رسائی کے لیے نیچے دیے گئے لنکس پر کلک کریں۔</p>
+        
+        <a href="https://www.youtube.com/@MaqsoodAli489" class="btn" target="_blank">یوٹیوب چینل</a>
+        <a href="https://www.tiktok.com/@hajimaqsoodali1" class="btn" target="_blank">ٹک ٹاک</a>
+        <a href="https://wa.me/923430450007" class="btn" target="_blank">واٹس ایپ بزنس</a>
     </div>
 
 </body>
