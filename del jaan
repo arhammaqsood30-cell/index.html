@@ -1,139 +1,228 @@
-<!DOCTYPE html>
+ا index.html
+<!DOCTYPE html> ، </html<!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>دل جان 1400</title>
+<title>دل جان 1400 | عوامی خدمت</title>
 
 <style>
-* {
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, "Noto Nastaliq Urdu", sans-serif;
-    background: #121212;
-    color: #fff;
+html{
+    scroll-behavior:smooth;
 }
 
-header {
-    background: linear-gradient(135deg, #00ff6c, #00c853);
-    color: #000;
-    padding: 25px 15px;
-    text-align: center;
+body{
+    margin:0;
+    font-family:Arial,"Noto Nastaliq Urdu",sans-serif;
+    background:#101010;
+    color:#fff;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bold;
+header{
+    background:linear-gradient(135deg,#00ff6c,#00b84f);
+    color:#000;
+    text-align:center;
+    padding:30px 15px;
 }
 
-header p {
-    margin: 8px 0 0;
-    font-size: 17px;
+header h1{
+    margin:0;
+    font-size:36px;
+    font-weight:bold;
 }
 
-.container {
-    width: 95%;
-    max-width: 900px;
-    margin: 25px auto;
+header p{
+    margin:10px 0 0;
+    font-size:18px;
 }
 
-.card {
-    background: #1e1e1e;
-    border: 1px solid #333;
-    border-radius: 15px;
-    padding: 22px;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.35);
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#181818;
+    border-bottom:1px solid #333;
+    padding:10px;
+    text-align:center;
 }
 
-.card h2 {
-    color: #00ff6c;
-    margin-top: 0;
+nav a{
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;
+    padding:9px 12px;
+    margin:3px;
+    border-radius:8px;
 }
 
-.card p {
-    line-height: 1.9;
-    font-size: 16px;
+nav a:hover{
+    background:#00ff6c;
+    color:#000;
 }
 
-.btn {
-    display: block;
-    background: #00ff6c;
-    color: #000;
-    border: none;
-    padding: 15px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 12px auto;
-    width: 90%;
-    max-width: 350px;
-    text-decoration: none;
+.container{
+    width:94%;
+    max-width:1000px;
+    margin:25px auto;
 }
 
-.btn:hover {
-    background: #00d95b;
+.card{
+    background:#1c1c1c;
+    border:1px solid #333;
+    border-radius:18px;
+    padding:24px;
+    margin-bottom:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.35);
 }
 
-.status {
-    margin-top: 15px;
-    padding: 15px;
-    background: #292929;
-    border-radius: 10px;
-    color: #00ff6c;
-    font-weight: bold;
+.card h2{
+    color:#00ff6c;
+    margin-top:0;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
+.card p{
+    font-size:17px;
+    line-height:2;
 }
 
-.box {
-    background: #252525;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    border: 1px solid #333;
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+    gap:15px;
 }
 
-.box strong {
-    display: block;
-    font-size: 27px;
-    color: #00ff6c;
-    margin-bottom: 8px;
+.box{
+    background:#252525;
+    border:1px solid #333;
+    border-radius:14px;
+    padding:24px 15px;
+    text-align:center;
 }
 
-footer {
-    text-align: center;
-    padding: 25px 10px;
-    background: #0b0b0b;
-    color: #aaa;
-    margin-top: 30px;
+.box strong{
+    display:block;
+    color:#00ff6c;
+    font-size:30px;
+    margin-bottom:10px;
 }
 
-footer b {
-    color: #00ff6c;
+.btn{
+    display:block;
+    width:90%;
+    max-width:380px;
+    margin:15px auto;
+    padding:16px 20px;
+    background:#00ff6c;
+    color:#000;
+    border:0;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
 }
 
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 26px;
+.btn:hover{
+    background:#00d95b;
+}
+
+.status{
+    background:#292929;
+    border-radius:12px;
+    padding:15px;
+    margin-top:15px;
+    color:#00ff6c;
+    text-align:center;
+    line-height:1.8;
+}
+
+#aiPanel{
+    display:none;
+    margin-top:20px;
+}
+
+textarea{
+    width:100%;
+    min-height:120px;
+    padding:15px;
+    background:#111;
+    color:#fff;
+    border:1px solid #444;
+    border-radius:12px;
+    font-size:17px;
+    outline:none;
+    resize:vertical;
+}
+
+textarea:focus{
+    border-color:#00ff6c;
+}
+
+#aiAnswer{
+    display:none;
+    margin-top:15px;
+    padding:18px;
+    background:#292929;
+    border-right:4px solid #00ff6c;
+    border-radius:10px;
+    line-height:2;
+}
+
+.feature{
+    margin:12px 0;
+    padding:13px;
+    background:#242424;
+    border-radius:10px;
+}
+
+footer{
+    background:#080808;
+    color:#aaa;
+    text-align:center;
+    padding:30px 10px;
+    margin-top:35px;
+}
+
+footer b{
+    color:#00ff6c;
+}
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:28px;
     }
 
-    .card {
-        padding: 17px;
+    header p{
+        font-size:15px;
     }
 
-    .btn {
-        font-size: 16px;
+    nav a{
+        font-size:14px;
+        padding:7px 8px;
+    }
+
+    .card{
+        padding:18px;
+    }
+
+    .card h2{
+        font-size:22px;
+    }
+
+    .card p{
+        font-size:16px;
+    }
+
+    .btn{
+        width:100%;
+        font-size:16px;
     }
 }
 </style>
@@ -141,124 +230,294 @@ footer b {
 
 <body>
 
-<header>
+<header id="home">
     <h1>دل جان 1400</h1>
-    <p>صحت • تعلیم • روزگار • خدمت</p>
+    <p>صحت • تعلیم • روزگار • عوامی خدمت</p>
 </header>
+
+<nav>
+    <a href="#home">🏠 ہوم</a>
+    <a href="#ai">🤖 AI</a>
+    <a href="#health">❤️ صحت</a>
+    <a href="#education">📚 تعلیم</a>
+    <a href="#jobs">💼 روزگار</a>
+    <a href="#contact">📞 رابطہ</a>
+</nav>
 
 <div class="container">
 
-    <div class="card">
+    <section class="card">
         <h2>🌟 ہمارے خواب میں خوش آمدید</h2>
+
         <p>
-            دل جان 1400 ایک ایسا پلیٹ فارم ہے جس کا مقصد
+            دل جان 1400 ایک عوامی پلیٹ فارم ہے جس کا مقصد
             عام لوگوں تک صحت، تعلیم، روزگار اور مفید معلومات
             آسان انداز میں پہنچانا ہے۔
         </p>
 
-        <div class="status" id="status">
-            🟢 سسٹم آن لائن ہے
+        <div class="status">
+            🟢 دل جان 1400 سسٹم آن لائن ہے
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+
+    <section class="card">
         <h2>📊 ہمارا پلیٹ فارم</h2>
 
         <div class="grid">
+
             <div class="box">
                 <strong>01</strong>
-                صحت
+                ❤️ صحت
             </div>
 
             <div class="box">
                 <strong>02</strong>
-                تعلیم
+                📚 تعلیم
             </div>
 
             <div class="box">
                 <strong>03</strong>
-                روزگار
+                💼 روزگار
             </div>
 
             <div class="box">
                 <strong>04</strong>
-                عوامی خدمت
+                🤝 عوامی خدمت
             </div>
-        </div>
-    </div>
 
-    <div class="card">
+        </div>
+    </section>
+
+
+    <section class="card" id="ai">
+
         <h2>🤖 دل جان AI</h2>
 
         <p>
-            سوال پوچھیں، معلومات حاصل کریں اور اپنی ضرورت کے مطابق
-            رہنمائی حاصل کریں۔
+            دل جان AI میں اپنا سوال لکھیں اور AI پلیٹ فارم
+            کے ذریعے رہنمائی حاصل کرنے کے لیے چیٹ شروع کریں۔
         </p>
 
-        <button class="btn" onclick="startAI()">
-            🤖 AI شروع کریں
+        <button class="btn" onclick="openAI()">
+            🤖 AI چیٹ شروع کریں
         </button>
 
-        <div class="status" id="aiStatus">
-            AI ابھی شروع نہیں کیا گیا۔
-        </div>
-    </div>
+        <div id="aiPanel">
 
-    <div class="card">
-        <h2>📚 معلومات</h2>
+            <textarea
+                id="question"
+                placeholder="اپنا سوال یہاں لکھیں..."
+            ></textarea>
+
+            <button class="btn" onclick="sendQuestion()">
+                🚀 سوال بھیجیں
+            </button>
+
+            <div id="aiAnswer"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class="card" id="health">
+
+        <h2>❤️ صحت</h2>
+
+        <div class="feature">
+            🩺 صحت کے بارے میں عام اور مفید معلومات
+        </div>
+
+        <div class="feature">
+            💧 صاف پانی اور صحت مند زندگی کی اہمیت
+        </div>
+
+        <div class="feature">
+            🥗 متوازن غذا اور روزمرہ صحت
+        </div>
+
+    </section>
+
+
+    <section class="card" id="education">
+
+        <h2>📚 تعلیم</h2>
 
         <p>
-            صحت، تعلیم، روزگار اور معاشرتی مسائل کے بارے میں
-            مفید معلومات ایک جگہ فراہم کرنے کی کوشش۔
+            تعلیم ہر انسان کا بنیادی حق ہے۔
+            ہمارا مقصد مفید تعلیمی معلومات کو عام لوگوں
+            تک آسان انداز میں پہنچانا ہے۔
         </p>
 
-        <button class="btn" onclick="showInfo()">
-            معلومات دیکھیں
+        <button class="btn" onclick="educationInfo()">
+            📖 مزید معلومات
         </button>
 
-        <div class="status" id="infoStatus" style="display:none;"></div>
-    </div>
+        <div
+            id="educationStatus"
+            class="status"
+            style="display:none;"
+        ></div>
 
-    <div class="card">
+    </section>
+
+
+    <section class="card" id="jobs">
+
+        <h2>💼 روزگار</h2>
+
+        <p>
+            ہنر سیکھیں، اپنی صلاحیت بہتر بنائیں اور
+            روزگار کے نئے مواقع تلاش کریں۔
+        </p>
+
+        <button class="btn" onclick="jobInfo()">
+            💼 روزگار کی معلومات
+        </button>
+
+        <div
+            id="jobStatus"
+            class="status"
+            style="display:none;"
+        ></div>
+
+    </section>
+
+
+    <section class="card">
+
+        <h2>📢 عوامی خدمت</h2>
+
+        <p>
+            دل جان 1400 کا مقصد لوگوں تک مفید معلومات
+            پہنچانا اور صحت، تعلیم اور روزگار کے میدان
+            میں آگاہی پیدا کرنا ہے۔
+        </p>
+
+    </section>
+
+
+    <section class="card" id="contact">
+
         <h2>📞 رابطہ</h2>
 
         <p>
-            اگر کسی معلومات کو سمجھنے میں مشکل ہو تو ہم سے رابطہ کریں۔
+            اگر کسی معلومات کو سمجھنے میں مشکل ہو یا
+            مزید رہنمائی چاہیے تو WhatsApp کے ذریعے رابطہ کریں۔
         </p>
 
-        <a class="btn" href="https://wa.me/923430450007" target="_blank">
-            📱 WhatsApp رابطہ
+        <a
+            class="btn"
+            href="https://wa.me/923430450007"
+            target="_blank"
+        >
+            📱 WhatsApp پر رابطہ کریں
         </a>
-    </div>
+
+    </section>
 
 </div>
 
+
 <footer>
+
     <p>
         <b>دل جان 1400</b><br>
         عوام کے لیے، عوام کی خدمت کے لیے
     </p>
 
-    <p>© 2026 Dil Jaan 1400</p>
+    <p>
+        صحت • تعلیم • روزگار • خدمت
+    </p>
+
+    <p>
+        © 2026 Dil Jaan 1400
+    </p>
+
 </footer>
+
 
 <script>
 
-function startAI() {
-    document.getElementById("aiStatus").innerHTML =
-        "🟢 AI سسٹم تیار ہے — اپنا سوال پوچھنے کے لیے رابطہ کریں۔";
+function openAI(){
+
+    const panel = document.getElementById("aiPanel");
+
+    panel.style.display = "block";
+
+    document.getElementById("question").focus();
 }
 
-function showInfo() {
-    const box = document.getElementById("infoStatus");
+
+function sendQuestion(){
+
+    const question =
+        document.getElementById("question").value.trim();
+
+    const answer =
+        document.getElementById("aiAnswer");
+
+
+    if(question === ""){
+
+        answer.style.display = "block";
+
+        answer.innerHTML =
+            "⚠️ براہِ کرم پہلے اپنا سوال لکھیں۔";
+
+        return;
+    }
+
+
+    answer.style.display = "block";
+
+    answer.innerHTML =
+        "🟢 سوال موصول ہوگیا۔<br><br>" +
+        "آپ نے پوچھا:<br>" +
+        "<b>" + escapeHTML(question) + "</b><br><br>" +
+        "🤖 حقیقی AI جواب حاصل کرنے کے لیے " +
+        "محفوظ AI Backend/API کو اس ویب سائٹ سے منسلک کرنا ہوگا۔";
+}
+
+
+function educationInfo(){
+
+    const box =
+        document.getElementById("educationStatus");
 
     box.style.display = "block";
 
     box.innerHTML =
-        "✅ صحت، تعلیم، روزگار اور عوامی خدمت سے متعلق معلومات یہاں فراہم کی جائیں گی۔";
+        "📚 تعلیم کے لیے بنیادی کمپیوٹر، موبائل، " +
+        "انگریزی اور آن لائن ہنر سیکھنے سے آغاز کریں۔";
+}
+
+
+function jobInfo(){
+
+    const box =
+        document.getElementById("jobStatus");
+
+    box.style.display = "block";
+
+    box.innerHTML =
+        "💼 روزگار کے لیے کوئی مفید ہنر سیکھیں، " +
+        "اپنا کام آن لائن پیش کریں اور قابلِ اعتماد " +
+        "روزگار کے مواقع تلاش کریں۔";
+}
+
+
+function escapeHTML(text){
+
+    const div = document.createElement("div");
+
+    div.textContent = text;
+
+    return div.innerHTML;
 }
 
 </script>
 
 </body>
-</html>
+</html>> 
