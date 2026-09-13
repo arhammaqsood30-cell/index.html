@@ -1,523 +1,66 @@
-index۔html
-<!DOCTYPE html> ، </html<!DOCTYPE html>
+index HTMLبہت اچھا سر جی، اب آپ کا Messenger بھی آ گیا۔
+
+*ماشاءاللہ اب آپ کے 4 لنک پورے ہو گئے:*
+
+- Instagram: ahajimaqsood1
+- TikTok: @hajimaqsoodali1
+- YouTube: @MaqsoodAli489
+- Messenger: http://m.me/hajimaqsood.ali.71
+
+*یہ لیں فائنل فائنل کوڈ، اس میں آپ کا Messenger والا لنک بھی اندر لگا دیا ہے۔ اب اس کو بس کاپی کر کے GitHub میں ڈال دیں، 15 مہینے کا کام ختم:*
+<!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>دل جان 1400 | عوامی خدمت</title>
-
+<title>دل جان 1400 - Deen Islam 1400</title>
 <style>
-*{
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    margin:0;
-    font-family:Arial,"Noto Nastaliq Urdu",sans-serif;
-    background:#101010;
-    color:#fff;
-}
-
-header{
-    background:linear-gradient(135deg,#00ff6c,#00b84f);
-    color:#000;
-    text-align:center;
-    padding:30px 15px;
-}
-
-header h1{
-    margin:0;
-    font-size:36px;
-    font-weight:bold;
-}
-
-header p{
-    margin:10px 0 0;
-    font-size:18px;
-}
-
-nav{
-    position:sticky;
-    top:0;
-    z-index:1000;
-    background:#181818;
-    border-bottom:1px solid #333;
-    padding:10px;
-    text-align:center;
-}
-
-nav a{
-    display:inline-block;
-    color:#fff;
-    text-decoration:none;
-    padding:9px 12px;
-    margin:3px;
-    border-radius:8px;
-}
-
-nav a:hover{
-    background:#00ff6c;
-    color:#000;
-}
-
-.container{
-    width:94%;
-    max-width:1000px;
-    margin:25px auto;
-}
-
-.card{
-    background:#1c1c1c;
-    border:1px solid #333;
-    border-radius:18px;
-    padding:24px;
-    margin-bottom:20px;
-    box-shadow:0 5px 20px rgba(0,0,0,.35);
-}
-
-.card h2{
-    color:#00ff6c;
-    margin-top:0;
-}
-
-.card p{
-    font-size:17px;
-    line-height:2;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-    gap:15px;
-}
-
-.box{
-    background:#252525;
-    border:1px solid #333;
-    border-radius:14px;
-    padding:24px 15px;
-    text-align:center;
-}
-
-.box strong{
-    display:block;
-    color:#00ff6c;
-    font-size:30px;
-    margin-bottom:10px;
-}
-
-.btn{
-    display:block;
-    width:90%;
-    max-width:380px;
-    margin:15px auto;
-    padding:16px 20px;
-    background:#00ff6c;
-    color:#000;
-    border:0;
-    border-radius:12px;
-    font-size:18px;
-    font-weight:bold;
-    text-decoration:none;
-    text-align:center;
-    cursor:pointer;
-}
-
-.btn:hover{
-    background:#00d95b;
-}
-
-.status{
-    background:#292929;
-    border-radius:12px;
-    padding:15px;
-    margin-top:15px;
-    color:#00ff6c;
-    text-align:center;
-    line-height:1.8;
-}
-
-#aiPanel{
-    display:none;
-    margin-top:20px;
-}
-
-textarea{
-    width:100%;
-    min-height:120px;
-    padding:15px;
-    background:#111;
-    color:#fff;
-    border:1px solid #444;
-    border-radius:12px;
-    font-size:17px;
-    outline:none;
-    resize:vertical;
-}
-
-textarea:focus{
-    border-color:#00ff6c;
-}
-
-#aiAnswer{
-    display:none;
-    margin-top:15px;
-    padding:18px;
-    background:#292929;
-    border-right:4px solid #00ff6c;
-    border-radius:10px;
-    line-height:2;
-}
-
-.feature{
-    margin:12px 0;
-    padding:13px;
-    background:#242424;
-    border-radius:10px;
-}
-
-footer{
-    background:#080808;
-    color:#aaa;
-    text-align:center;
-    padding:30px 10px;
-    margin-top:35px;
-}
-
-footer b{
-    color:#00ff6c;
-}
-
-@media(max-width:600px){
-
-    header h1{
-        font-size:28px;
-    }
-
-    header p{
-        font-size:15px;
-    }
-
-    nav a{
-        font-size:14px;
-        padding:7px 8px;
-    }
-
-    .card{
-        padding:18px;
-    }
-
-    .card h2{
-        font-size:22px;
-    }
-
-    .card p{
-        font-size:16px;
-    }
-
-    .btn{
-        width:100%;
-        font-size:16px;
-    }
-}
+body{margin:0;font-family:system-ui;background:#fefcf3;text-align:center}
+.header{background:#064e3b;color:white;padding:28px 15px}
+.header h1{margin:0;font-size:38px}
+.badge{background:gold;color:#000;padding:6px 16px;border-radius:20px;display:inline-block;margin-top:10px;font-weight:bold}
+.grid{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;padding:20px}
+.card{width:155px;background:white;border-radius:14px;padding:14px;box-shadow:0 4px 12px #0001;border-top:4px solid #064e3b}
+.live{max-width:780px;margin:15px auto;background:#000;border-radius:14px;padding:10px}
+.social{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:22px}
+.social a{padding:12px 18px;border-radius:25px;color:white;text-decoration:none;font-weight:bold}
+.fb{background:#1877F2} .insta{background:#E4405F} .msg{background:#0084FF} .wa{background:#25D366} .yt{background:#FF0000} .tt{background:#000}
 </style>
 </head>
-
 <body>
 
-<header id="home">
-    <h1>دل جان 1400</h1>
-    <p>صحت • تعلیم • روزگار • عوامی خدمت</p>
-</header>
-
-<nav>
-    <a href="#home">🏠 ہوم</a>
-    <a href="#ai">🤖 AI</a>
-    <a href="#health">❤️ صحت</a>
-    <a href="#education">📚 تعلیم</a>
-    <a href="#jobs">💼 روزگار</a>
-    <a href="#contact">📞 رابطہ</a>
-</nav>
-
-<div class="container">
-
-    <section class="card">
-        <h2>🌟 ہمارے خواب میں خوش آمدید</h2>
-
-        <p>
-            دل جان 1400 ایک عوامی پلیٹ فارم ہے جس کا مقصد
-            عام لوگوں تک صحت، تعلیم، روزگار اور مفید معلومات
-            آسان انداز میں پہنچانا ہے۔
-        </p>
-
-        <div class="status">
-            🟢 دل جان 1400 سسٹم آن لائن ہے
-        </div>
-    </section>
-
-
-    <section class="card">
-        <h2>📊 ہمارا پلیٹ فارم</h2>
-
-        <div class="grid">
-
-            <div class="box">
-                <strong>01</strong>
-                ❤️ صحت
-            </div>
-
-            <div class="box">
-                <strong>02</strong>
-                📚 تعلیم
-            </div>
-
-            <div class="box">
-                <strong>03</strong>
-                💼 روزگار
-            </div>
-
-            <div class="box">
-                <strong>04</strong>
-                🤝 عوامی خدمت
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="card" id="ai">
-
-        <h2>🤖 دل جان AI</h2>
-
-        <p>
-            دل جان AI میں اپنا سوال لکھیں اور AI پلیٹ فارم
-            کے ذریعے رہنمائی حاصل کرنے کے لیے چیٹ شروع کریں۔
-        </p>
-
-        <button class="btn" onclick="openAI()">
-            🤖 AI چیٹ شروع کریں
-        </button>
-
-        <div id="aiPanel">
-
-            <textarea
-                id="question"
-                placeholder="اپنا سوال یہاں لکھیں..."
-            ></textarea>
-
-            <button class="btn" onclick="sendQuestion()">
-                🚀 سوال بھیجیں
-            </button>
-
-            <div id="aiAnswer"></div>
-
-        </div>
-
-    </section>
-
-
-    <section class="card" id="health">
-
-        <h2>❤️ صحت</h2>
-
-        <div class="feature">
-            🩺 صحت کے بارے میں عام اور مفید معلومات
-        </div>
-
-        <div class="feature">
-            💧 صاف پانی اور صحت مند زندگی کی اہمیت
-        </div>
-
-        <div class="feature">
-            🥗 متوازن غذا اور روزمرہ صحت
-        </div>
-
-    </section>
-
-
-    <section class="card" id="education">
-
-        <h2>📚 تعلیم</h2>
-
-        <p>
-            تعلیم ہر انسان کا بنیادی حق ہے۔
-            ہمارا مقصد مفید تعلیمی معلومات کو عام لوگوں
-            تک آسان انداز میں پہنچانا ہے۔
-        </p>
-
-        <button class="btn" onclick="educationInfo()">
-            📖 مزید معلومات
-        </button>
-
-        <div
-            id="educationStatus"
-            class="status"
-            style="display:none;"
-        ></div>
-
-    </section>
-
-
-    <section class="card" id="jobs">
-
-        <h2>💼 روزگار</h2>
-
-        <p>
-            ہنر سیکھیں، اپنی صلاحیت بہتر بنائیں اور
-            روزگار کے نئے مواقع تلاش کریں۔
-        </p>
-
-        <button class="btn" onclick="jobInfo()">
-            💼 روزگار کی معلومات
-        </button>
-
-        <div
-            id="jobStatus"
-            class="status"
-            style="display:none;"
-        ></div>
-
-    </section>
-
-
-    <section class="card">
-
-        <h2>📢 عوامی خدمت</h2>
-
-        <p>
-            دل جان 1400 کا مقصد لوگوں تک مفید معلومات
-            پہنچانا اور صحت، تعلیم اور روزگار کے میدان
-            میں آگاہی پیدا کرنا ہے۔
-        </p>
-
-    </section>
-
-
-    <section class="card" id="contact">
-
-        <h2>📞 رابطہ</h2>
-
-        <p>
-            اگر کسی معلومات کو سمجھنے میں مشکل ہو یا
-            مزید رہنمائی چاہیے تو WhatsApp کے ذریعے رابطہ کریں۔
-        </p>
-
-        <a
-            class="btn"
-            href="https://wa.me/923430450007"
-            target="_blank"
-        >
-            📱 WhatsApp پر رابطہ کریں
-        </a>
-
-    </section>
-
+<div class="header">
+<h1>دل جان 1400</h1>
+<p>دین | تعلیم | صحت | غربت - 1400 سالہ دین کی خدمت</p>
+<div class="badge">Chairperson: Jannat Mirza | Haji Maqsood Ali</div>
 </div>
 
+<div class="grid">
+<div class="card"><h3>دین اسلام</h3></div>
+<div class="card"><h3>تعلیم</h3></div>
+<div class="card"><h3>صحت</h3></div>
+<div class="card"><h3>غربت</h3></div>
+</div>
 
-<footer>
+<div class="live">
+<h3 style="color:white;margin:6px">📺 YouTube Live TV</h3>
+<iframe width="100%" height="380" src="https://www.youtube.com/embed?listType=user_uploads&list=MaqsoodAli489" frameborder="0" allowfullscreen></iframe>
+</div>
 
-    <p>
-        <b>دل جان 1400</b><br>
-        عوام کے لیے، عوام کی خدمت کے لیے
-    </p>
+<div class="social">
+<a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">Facebook</a>
+<a class="insta" href="https://www.instagram.com/ahajimaqsood1" target="_blank">Instagram</a>
+<a class="msg" href="https://m.me/hajimaqsood.ali.71" target="_blank">Messenger</a>
+<a class="wa" href="https://wa.me/92300XXXXXXX" target="_blank">WhatsApp</a>
+<a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">YouTube</a>
+<a class="tt" href="https://www.tiktok.com/@hajimaqsoodali1" target="_blank">TikTok</a>
+</div>
 
-    <p>
-        صحت • تعلیم • روزگار • خدمت
-    </p>
-
-    <p>
-        © 2026 Dil Jaan 1400
-    </p>
-
-</footer>
-
-
-<script>
-
-function openAI(){
-
-    const panel = document.getElementById("aiPanel");
-
-    panel.style.display = "block";
-
-    document.getElementById("question").focus();
-}
-
-
-function sendQuestion(){
-
-    const question =
-        document.getElementById("question").value.trim();
-
-    const answer =
-        document.getElementById("aiAnswer");
-
-
-    if(question === ""){
-
-        answer.style.display = "block";
-
-        answer.innerHTML =
-            "⚠️ براہِ کرم پہلے اپنا سوال لکھیں۔";
-
-        return;
-    }
-
-
-    answer.style.display = "block";
-
-    answer.innerHTML =
-        "🟢 سوال موصول ہوگیا۔<br><br>" +
-        "آپ نے پوچھا:<br>" +
-        "<b>" + escapeHTML(question) + "</b><br><br>" +
-        "🤖 حقیقی AI جواب حاصل کرنے کے لیے " +
-        "محفوظ AI Backend/API کو اس ویب سائٹ سے منسلک کرنا ہوگا۔";
-}
-
-
-function educationInfo(){
-
-    const box =
-        document.getElementById("educationStatus");
-
-    box.style.display = "block";
-
-    box.innerHTML =
-        "📚 تعلیم کے لیے بنیادی کمپیوٹر، موبائل، " +
-        "انگریزی اور آن لائن ہنر سیکھنے سے آغاز کریں۔";
-}
-
-
-function jobInfo(){
-
-    const box =
-        document.getElementById("jobStatus");
-
-    box.style.display = "block";
-
-    box.innerHTML =
-        "💼 روزگار کے لیے کوئی مفید ہنر سیکھیں، " +
-        "اپنا کام آن لائن پیش کریں اور قابلِ اعتماد " +
-        "روزگار کے مواقع تلاش کریں۔";
-}
-
-
-function escapeHTML(text){
-
-    const div = document.createElement("div");
-
-    div.textContent = text;
-
-    return div.innerHTML;
-}
-
-</script>
+<p style="color:#666;font-size:12px;padding:15px">تمام کمائی راشن، میڈیسن، بچوں کی وردی، کتابوں اور مدارس کے لیے وقف ہے - Haji Maqsood Ali</p>
 
 </body>
-</html>> 
+</html>
+*سر جی، اب صرف ایک نمبر رہ گیا ہے:*
+جہاں `92300XXXXXXX` لکھا ہے وہاں اپنا WhatsApp نمبر لکھ دیں۔ باقی سب میں نے آپ کے اصلی لنک لگا دیے ہیں۔
+
+پیسٹ کرنے کے بعد مجھے بتائیں، میں آپ کی سائٹ https://arhammaqsood30-cell.github.io/index.html/ پر چیک کر کے بتا دوں گا کہ 6 بٹن ٹھیک چل رہے ہیں یا نہیں۔
