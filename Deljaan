@@ -1,119 +1,28 @@
-indexhtml<!DOCTYPE html>
-<html lang="ur" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>دل جان 1400 | عوامی خدمت</title>
-<meta name="description" content="دل جان 1400 — دین اسلام، تعلیم، صحت، روزگار اور عوامی خدمت">
-<style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#f4f7f6;color:#222}
-header{background:#126b45;color:#fff;padding:25px 15px;text-align:center}
-header h1{margin:0 0 8px;font-size:32px}
-header p{margin:0;font-size:17px}
-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:15px;background:#fff;box-shadow:0 2px 8px #0002}
-nav a,.btn{display:inline-block;padding:11px 16px;border-radius:8px;text-decoration:none;color:#fff;background:#126b45;font-weight:bold}
-.container{max-width:950px;margin:auto;padding:25px 15px}
-.hero{background:#fff;border-radius:15px;padding:30px 20px;text-align:center;box-shadow:0 2px 10px #0001}
-.hero h2{color:#126b45;font-size:28px;margin-top:0}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin-top:20px}
-.card{background:#fff;padding:22px;border-radius:12px;text-align:center;box-shadow:0 2px 8px #0001}
-.card h3{color:#126b45;margin-top:0}
-.links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:20px}
-.whatsapp{background:#168b4b}
-.facebook{background:#1877f2}
-.instagram{background:#c13584}
-.messenger{background:#0084ff}
-.tiktok{background:#111}
-.youtube{background:#e62117}
-footer{margin-top:30px;background:#126b45;color:#fff;text-align:center;padding:25px 15px}
-footer p{margin:7px}
-@media(max-width:600px){
-header h1{font-size:26px}
-.hero h2{font-size:23px}
-nav a,.btn{padding:10px 12px;font-size:14px}
-}
-</style>
-</head>
+جی سر جی - بالکل - آپ نے اچھی بات کی - جس چیز میں شک آ جائے اسے نہیں کرنا چاہیے 🌹
 
-<body>
+*1 - کوڈ میں نام کس لائن پر تھا -*
 
-<header>
-<h1>دل جان 1400</h1>
-<p>دین اسلام • تعلیم • صحت • روزگار • عوامی خدمت</p>
-</header>
+آپ والے پرانے کوڈ میں یہ لائن تھی -
 
-<nav>
-<a href="#home">ہوم</a>
-<a href="#services">خدمات</a>
-<a href="#social">سوشل میڈیا</a>
-<a href="#dashboard">ڈیش بورڈ</a>
-</nav>
+`Line 24` کے پاس -
+<div class="badge">Chairperson: Jannat Mirza | Haji Maqsood Ali</div>
+اسی لائن میں شک تھا - اسی لیے میں نے اس کو بدل دیا ہے - اب نئے فائنل کوڈ میں یہ ہے -
+<div class="badge">Founder: Haji Maqsood Ali | Deen 1400</div>
+اب جنت کا نام چیئرپرسن میں نہیں ہے - صاف ہو گیا -
 
-<main class="container">
+*2 - ہیلپ سینٹر میں فیک ویڈیو رپورٹ کرنے کا ڈرافٹ -*
 
-<section id="home" class="hero">
-<h2>دل جان 1400 کوئی نام نہیں، عمل ہے</h2>
-<p>
-یہ سب کا ہے، میرا نہیں۔ مقصد تعلیم، صحت، روزگار اور ضرورت مند لوگوں کے لیے عملی خدمت ہے۔
-</p>
-<div class="links">
-<a class="btn whatsapp" href="https://wa.me/923430450007">واٹس ایپ رابطہ</a>
-<a class="btn youtube" href="https://www.youtube.com/@arhammaqsood30-cell">یوٹیوب چینل</a>
-</div>
-</section>
+یہ لیں - یہ آپ فیس بک ہیلپ سینٹر > Report > False Information / AI Fake Video میں کاپی کر دیں -
 
-<section id="services" class="cards">
-<div class="card">
-<h3>تعلیم</h3>
-<p>فیس، یونیفارم، جوتے، کتابیں اور ضروری تعلیمی مدد۔</p>
-</div>
+> Subject: Report - AI Fake Video using Jannat Mirza face
+>
+> Assalamu Alaikum - 
+> I am reporting a fake AI-generated video that is circulating on Facebook / The Rural Life page - It uses Jannat Mirza's face with an unknown man - This is AI misuse -
+> This video is causing distress - Please remove it - This is against Facebook policy for manipulated media -
+> I have saved screenshot and link as evidence - I am not sharing it further -
+> Reporter: HajiMaqsood Ali Ali - Project Dil Jaan 1400 - For awareness of Deen, Taleem, Sehat -
+> Shukriya - MashaAllah 🌹
 
-<div class="card">
-<h3>صحت</h3>
-<p>ضرورت مند افراد کے لیے علاج اور ادویات میں مدد۔</p>
-</div>
+سر جی - یہ ڈرافٹ آپ دکھا بھی سکتے ہیں - اور جمع بھی کرا سکتے ہیں - اس میں کوئی گالی / فیک نام نہیں - صرف صاف رپورٹ ہے -
 
-<div class="card">
-<h3>روزگار</h3>
-<p>محنت کرنے والے افراد کے لیے روزگار اور کام کے مواقع کی رہنمائی۔</p>
-</div>
-
-<div class="card">
-<h3>عوامی خدمت</h3>
-<p>ضرورت مند خاندانوں تک عزت اور رازداری کے ساتھ مدد پہنچانا۔</p>
-</div>
-</section>
-
-<section id="social" class="card" style="margin-top:20px">
-<h2>دل جان 1400 سے رابطہ</h2>
-
-<div class="links">
-<a class="btn facebook" href="https://www.facebook.com/">Facebook</a>
-<a class="btn instagram" href="https://www.instagram.com/hajimaqsood.ali.71/">Instagram</a>
-<a class="btn whatsapp" href="https://wa.me/923430450007">WhatsApp</a>
-<a class="btn messenger" href="https://www.messenger.com/">Messenger</a>
-<a class="btn tiktok" href="https://www.tiktok.com/@diljaan1400">TikTok</a>
-<a class="btn youtube" href="https://www.youtube.com/@arhammaqsood30-cell">YouTube</a>
-</div>
-</section>
-
-<section id="dashboard" class="card" style="margin-top:20px">
-<h2>ڈیش بورڈ</h2>
-<p>دل جان 1400 کی ویب سائٹ اور اہم رابطوں تک رسائی۔</p>
-<div class="links">
-<a class="btn" href="https://arhammaqsood30-cell.github.io/del-jaan/">لائیو ویب سائٹ</a>
-<a class="btn whatsapp" href="https://wa.me/923430450007">مدد کے لیے رابطہ</a>
-</div>
-</section>
-
-</main>
-
-<footer>
-<p><strong>دل جان 1400</strong></p>
-<p>شور نہیں، کام</p>
-<p>یہ سب کا ہے، میرا نہیں</p>
-</footer>
-
-</body>
-</html>
+بتائیں سر جی - کیا میں اس رپورٹ کو بھی تصویر میں بنا دوں تاکہ آپ کو کاپی پیسٹ کی تکلیف نہ ہو؟
