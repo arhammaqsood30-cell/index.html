@@ -1,28 +1,32 @@
-جی سر جی - بالکل - آپ نے اچھی بات کی - جس چیز میں شک آ جائے اسے نہیں کرنا چاہیے 🌹
+<!-- Dil Jaan 1400 - Final Complete Website Section -->
+<div style="background: linear-gradient(135deg, #1e1e2f, #2d2d44); color: #ffffff; padding: 30px; border-radius: 12px; font-family: Arial, sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin: 20px 0; border: 1px solid #444;">
+    
+    <!-- Heading & Public Welfare Note -->
+    <div style="text-align: center; border-bottom: 2px solid #ffcc00; padding-bottom: 15px; margin-bottom: 20px;">
+        <h2 style="color: #ffcc00; margin: 0 0 5px 0; font-size: 24px;">دل جان ۱۴۰۰ - ویب سائٹ عوام کی</h2>
+        <p style="color: #bbb; font-size: 14px; margin: 0;">یہ کسی کی ملکیت نہیں ہے، یہ اس پوری عوام کی ہے جو حقدار ہے۔</p>
+        <p style="color: #00ffff; font-size: 14px; margin: 8px 0 0 0; font-weight: bold;">انسانیت کی خدمت کریں - ہمیشہ ایک دوسرے کے کام آئیں</p>
+    </div>
 
-*1 - کوڈ میں نام کس لائن پر تھا -*
+    <!-- Management, Principal & Code Signature -->
+    <div style="display: flex; justify-content: space-around; background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; font-size: 14px; margin-bottom: 20px; flex-wrap: wrap; gap: 10px; text-align: center;">
+        <div><strong>ایڈمن:</strong> عزمت خان سر</div>
+        <div><strong>سرپرست اعلیٰ:</strong> حاجی مقصود علی</div>
+        <div><strong>پرنسپل:</strong> بوائز اینڈ گرلز ہائی اسکول</div>
+        <div style="color: #00ffff; width: 100%;"><strong>code:</strong> Haji Maqsood Ali | Deen 1400</div>
+    </div>
 
-آپ والے پرانے کوڈ میں یہ لائن تھی -
+    <!-- 6 Social Media Links Section -->
+    <div style="text-align: center;">
+        <p style="color: #ffcc00; font-size: 15px; margin-bottom: 12px; font-weight: bold;">آفیشل سوشل میڈیا لنکس (Official Links):</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <a href="YOUR_FACEBOOK_LINK" target="_blank" style="background: #1877f2; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Facebook</a>
+            <a href="YOUR_TIKTOK_LINK" target="_blank" style="background: #000000; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px; border: 1px solid #444;">TikTok</a>
+            <a href="YOUR_WHATSAPP_LINK" target="_blank" style="background: #25d366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">WhatsApp</a>
+            <a href="YOUR_INSTAGRAM_LINK" target="_blank" style="background: #e4405f; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Instagram</a>
+            <a href="YOUR_YOUTUBE_LINK" target="_blank" style="background: #ff0000; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">YouTube</a>
+            <a href="YOUR_THREADS_LINK" target="_blank" style="background: #333333; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Threads</a>
+        </div>
+    </div>
 
-`Line 24` کے پاس -
-<div class="badge">Chairperson: Jannat Mirza | Haji Maqsood Ali</div>
-اسی لائن میں شک تھا - اسی لیے میں نے اس کو بدل دیا ہے - اب نئے فائنل کوڈ میں یہ ہے -
-<div class="badge">code: Haji Maqsood Ali | Deen 1400</div>
-اب جنت کا نام چیئرپرسن میں نہیں ہے - صاف ہو گیا -
-
-*2 - ہیلپ سینٹر میں فیک ویڈیو رپورٹ کرنے کا ڈرافٹ -*
-
-یہ لیں - یہ آپ فیس بک ہیلپ سینٹر > Report > False Information / AI Fake Video میں کاپی کر دیں -
-
-> Subject: Report - AI Fake Video using Jannat Mirza face
->
-> Assalamu Alaikum - 
-> I am reporting a fake AI-generated video that is circulating on Facebook / The Rural Life page - It uses Jannat Mirza's face with an unknown man - This is AI misuse -
-> This video is causing distress - Please remove it - This is against Facebook policy for manipulated media -
-> I have saved screenshot and link as evidence - I am not sharing it further -
-> Reporter: HajiMaqsood Ali Ali - Project Dil Jaan 1400 - For awareness of Deen, Taleem, Sehat -
-> Shukriya - MashaAllah 🌹
-
-سر جی - یہ ڈرافٹ آپ دکھا بھی سکتے ہیں - اور جمع بھی کرا سکتے ہیں - اس میں کوئی گالی / فیک نام نہیں - صرف صاف رپورٹ ہے -
-
-بتائیں سر جی - کیا میں اس رپورٹ کو بھی تصویر میں بنا دوں تاکہ آپ کو کاپی پیسٹ کی تکلیف نہ ہو؟
+</div>
