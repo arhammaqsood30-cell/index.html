@@ -1,32 +1,86 @@
-<!-- Dil Jaan 1400 - Final Complete Website Section -->
-<div style="background: linear-gradient(135deg, #1e1e2f, #2d2d44); color: #ffffff; padding: 30px; border-radius: 12px; font-family: Arial, sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin: 20px 0; border: 1px solid #444;">
-    
-    <!-- Heading & Public Welfare Note -->
-    <div style="text-align: center; border-bottom: 2px solid #ffcc00; padding-bottom: 15px; margin-bottom: 20px;">
-        <h2 style="color: #ffcc00; margin: 0 0 5px 0; font-size: 24px;">دل جان ۱۴۰۰ - ویب سائٹ عوام کی</h2>
-        <p style="color: #bbb; font-size: 14px; margin: 0;">یہ کسی کی ملکیت نہیں ہے، یہ اس پوری عوام کی ہے جو حقدار ہے۔</p>
-        <p style="color: #00ffff; font-size: 14px; margin: 8px 0 0 0; font-weight: bold;">انسانیت کی خدمت کریں - ہمیشہ ایک دوسرے کے کام آئیں</p>
-    </div>
+index.htmlحاجی صاحب آپ نے 100% سچ کہا - آپ کی بریانی والی مثال - دل پر لگی - 🌹
 
-    <!-- Management, Principal & Code Signature -->
-    <div style="display: flex; justify-content: space-around; background: rgba(0,0,0,0.3); padding: 12px; border-radius: 8px; font-size: 14px; margin-bottom: 20px; flex-wrap: wrap; gap: 10px; text-align: center;">
-        <div><strong>ایڈمن:</strong> عزمت خان سر</div>
-        <div><strong>سرپرست اعلیٰ:</strong> حاجی مقصود علی</div>
-        <div><strong>پرنسپل:</strong> بوائز اینڈ گرلز ہائی اسکول</div>
-        <div style="color: #00ffff; width: 100%;"><strong>code:</strong> Haji Maqsood Ali | Deen 1400</div>
-    </div>
+معذرت کے ساتھ آپ نے بالکل ٹھیک پوچھا -
 
-    <!-- 6 Social Media Links Section -->
-    <div style="text-align: center;">
-        <p style="color: #ffcc00; font-size: 15px; margin-bottom: 12px; font-weight: bold;">آفیشل سوشل میڈیا لنکس (Official Links):</p>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-            <a href="YOUR_FACEBOOK_LINK" target="_blank" style="background: #1877f2; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Facebook</a>
-            <a href="YOUR_TIKTOK_LINK" target="_blank" style="background: #000000; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px; border: 1px solid #444;">TikTok</a>
-            <a href="YOUR_WHATSAPP_LINK" target="_blank" style="background: #25d366; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">WhatsApp</a>
-            <a href="YOUR_INSTAGRAM_LINK" target="_blank" style="background: #e4405f; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Instagram</a>
-            <a href="YOUR_YOUTUBE_LINK" target="_blank" style="background: #ff0000; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">YouTube</a>
-            <a href="YOUR_THREADS_LINK" target="_blank" style="background: #333333; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 13px;">Threads</a>
-        </div>
-    </div>
+*جس کا یہ شعبہ ہوتا ہے - اس کو ایک دفعہ بتا دیا جائے کہ بریانی بنانی ہے - تو وہ چاول - چکن - مصالحے خود کرے گا - بار بار ہر لفظ پر - اس کو ایسے کر لیں - ویسے کر لیں - تو پھر فائدہ کیا دوسرے کے پاس جانے کا - خود ہی بنا لے -*
 
+حاجی صاحب - آپ نے 2 ماہ سے مجھے کہا - *دل جان 1400* - میں ہر لفظ پر آپ سے پوچھتا رہا - سفید کیا ہے - سبز کیا ہے - لنک کون سا ہے - میل رکھوں یا نکالوں - TV رکھوں یا نکالوں -
+
+آپ ٹھیک کہتے ہیں - یہ میرا کام تھا - آپ کا نہیں -
+
+*حاجی صاحب - اب میں آپ سے کوئی مصالحہ نہیں پوچھوں گا - بریانی میں خود بناؤں گا -*
+
+*میل بھی رہنے دیتا ہوں - TV بھی رہنے دیتا ہوں - 6 لنک بھی - سبز گولڈ + سفید صاف لفظ - سب کچھ اسی ایک فائل میں - تیار -*
+
+*یہ لیں فائنل بریانی - پکی پکائی - بس GitHub پر ڈال کر دم پر رکھ دیں -*
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دل جان 1400 - آفیشل پورٹل</title>
+<style>
+body{font-family:'Jameel Noori Nastaleeq',Arial,sans-serif;background:#f7f9fc;color:#333;margin:0;padding:0;text-align:center}
+.container{max-width:600px;margin:20px auto;background:#fff;padding:20px;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
+.darood-banner{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);border:1px solid #a5d6a7;padding:10px;border-radius:10px;margin-bottom:15px;color:#2e7d32;font-weight:bold}
+.brand-header{display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#0d3b2e,#d4af37);color:#fff;padding:15px 20px;border-radius:10px;margin-bottom:20px}
+.portal-logo{width:45px;height:45px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;color:#0d3b2e;border:2px solid gold}
+.gemini-monogram{width:35px;height:35px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;color:#0d3b2e;border:2px solid gold;font-size:12px}
+.admin-box{background:#fff8e1;border:2px dashed #fbc02d;padding:15px;border-radius:10px;margin-bottom:20px}
+.btn-link{display:block;background:#0d3b2e;color:#fff;text-decoration:none;padding:14px;border-radius:8px;margin-bottom:10px;font-weight:bold;border:2px solid gold}
+.video-container{position:relative;width:100%;padding-bottom:56.25%;height:0;background:#000;border-radius:8px;overflow:hidden;margin-top:15px}
+.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.mail-box{margin-top:20px;background:#e8f5e9;padding:15px;border-radius:10px;border:1px solid #a5d6a7}
+.mail-box input{padding:10px;width:65%;border-radius:6px;border:1px solid #ccc}
+.mail-box button{padding:10px 15px;background:#0d3b2e;color:#fff;border-radius:6px;border:1px solid gold;font-weight:bold}
+.footer{margin-top:15px;font-size:0.8rem;color:#777}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="darood-banner">✨ صلوات اللہ علیہ و على آل و صحبہ و سلم ✨</div>
+<div class="brand-header"><div class="portal-logo">JM</div><div>دل جان 1400 آفیشل پورٹل</div><div class="gemini-monogram">HAJI</div></div>
+<div class="admin-box"><h3>انتظامیہ / چیئرپرسن</h3><p>ایڈمن: حاجی مقصود علی</p></div>
+
+<h1>دل جان 1400</h1>
+<p>سوشل میڈیا اور ڈیجیٹل لنکس کا مرکزی ہب</p>
+
+<a href="https://www.youtube.com/@MaqsoodAli489" class="btn-link" target="_blank">📺 یوٹیوب چینل</a>
+<a href="https://www.tiktok.com/@hajimaqsoodali1" class="btn-link" target="_blank">🎵 ٹک ٹاک</a>
+<a href="https://wa.me/923430450007" class="btn-link" target="_blank">💬 واٹس ایپ بزنس</a>
+<a href="https://facebook.com/hajimaqsoodali" class="btn-link" target="_blank">👥 فیس بک پیج</a>
+<a href="https://instagram.com/hajimaqsoodali1" class="btn-link" target="_blank">📸 انسٹاگرام</a>
+<a href="https://www.threads.net/@hajimaqsoodali1" class="btn-link" target="_blank">🧵 تھریڈز</a>
+
+<div class="video-section">
+<h3>تازہ ترین ویڈیوز - TV Mode</h3>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/@MaqsoodAli489" allowfullscreen></iframe>
 </div>
+</div>
+
+<div class="mail-box">
+<h4>📧 میل - رابطہ کریں</h4>
+<form onsubmit="return submitForm();">
+<input type="email" id="email" placeholder="Email address" required>
+<button type="submit">Subscribe</button>
+</form>
+<p id="message"></p>
+</div>
+
+<div class="footer">&copy; 2026 دل جان 1400 - تمام حقوق محفوظ ہیں۔</div>
+</div>
+
+<script>
+function submitForm(){
+var email=document.getElementById("email").value;
+var url="https://script.google.com/macros/s/AKfycbynv6Ibnl9gJosprkRmXhbKtllZX8dqrbj_xQkcbZ_NgEDBxwyjz1xyvIvnm_4yPh3ZPA/exec";
+var data="email="+encodeURIComponent(email);
+fetch(url,{method:"POST",body:data,headers:{"Content-Type":"application/x-www-form-urlencoded"}})
+.then(r=>r.text()).then(t=>{document.getElementById("message").innerHTML="✅ Subscribe Successfully!";})
+.catch(e=>{console.error(e);});
+return false;
+}
+</script>
+</body>
+</html>
