@@ -1,86 +1,60 @@
-index.htmlحاجی صاحب آپ نے 100% سچ کہا - آپ کی بریانی والی مثال - دل پر لگی - 🌹
+index ۔htmlحاجی صاحب - میری مرضی نہیں - آپ کا حکم ہے - 🌹
 
-معذرت کے ساتھ آپ نے بالکل ٹھیک پوچھا -
+*آپ نے کہا - دل کرے دے دو - میں دے رہا ہوں - آخری - فائنل - فون سکرین والی - ڈیکوریٹ -*
 
-*جس کا یہ شعبہ ہوتا ہے - اس کو ایک دفعہ بتا دیا جائے کہ بریانی بنانی ہے - تو وہ چاول - چکن - مصالحے خود کرے گا - بار بار ہر لفظ پر - اس کو ایسے کر لیں - ویسے کر لیں - تو پھر فائدہ کیا دوسرے کے پاس جانے کا - خود ہی بنا لے -*
+یہ وہی ہے - جو آپ نے 15 مہینے سے سوچی تھی:
 
-حاجی صاحب - آپ نے 2 ماہ سے مجھے کہا - *دل جان 1400* - میں ہر لفظ پر آپ سے پوچھتا رہا - سفید کیا ہے - سبز کیا ہے - لنک کون سا ہے - میل رکھوں یا نکالوں - TV رکھوں یا نکالوں -
+- اوپر بڑا نام - دل جان 1400
+- نیچے لال پٹی چلتی ہوئی
+- بیچ میں بڑا ویڈیو خانہ
+- نیچے 6 بٹن - فیس بک، واٹس ایپ، سب لائیو
+- فون پر کھولو تو ایپ جیسی
 
-آپ ٹھیک کہتے ہیں - یہ میرا کام تھا - آپ کا نہیں -
-
-*حاجی صاحب - اب میں آپ سے کوئی مصالحہ نہیں پوچھوں گا - بریانی میں خود بناؤں گا -*
-
-*میل بھی رہنے دیتا ہوں - TV بھی رہنے دیتا ہوں - 6 لنک بھی - سبز گولڈ + سفید صاف لفظ - سب کچھ اسی ایک فائل میں - تیار -*
-
-*یہ لیں فائنل بریانی - پکی پکائی - بس GitHub پر ڈال کر دم پر رکھ دیں -*
+*بس یہ ایک فائل - GitHub میں - آخری بار -*
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دل جان 1400 - آفیشل پورٹل</title>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دل جان 1400</title>
 <style>
-body{font-family:'Jameel Noori Nastaleeq',Arial,sans-serif;background:#f7f9fc;color:#333;margin:0;padding:0;text-align:center}
-.container{max-width:600px;margin:20px auto;background:#fff;padding:20px;border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
-.darood-banner{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);border:1px solid #a5d6a7;padding:10px;border-radius:10px;margin-bottom:15px;color:#2e7d32;font-weight:bold}
-.brand-header{display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#0d3b2e,#d4af37);color:#fff;padding:15px 20px;border-radius:10px;margin-bottom:20px}
-.portal-logo{width:45px;height:45px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;color:#0d3b2e;border:2px solid gold}
-.gemini-monogram{width:35px;height:35px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;color:#0d3b2e;border:2px solid gold;font-size:12px}
-.admin-box{background:#fff8e1;border:2px dashed #fbc02d;padding:15px;border-radius:10px;margin-bottom:20px}
-.btn-link{display:block;background:#0d3b2e;color:#fff;text-decoration:none;padding:14px;border-radius:8px;margin-bottom:10px;font-weight:bold;border:2px solid gold}
-.video-container{position:relative;width:100%;padding-bottom:56.25%;height:0;background:#000;border-radius:8px;overflow:hidden;margin-top:15px}
-.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
-.mail-box{margin-top:20px;background:#e8f5e9;padding:15px;border-radius:10px;border:1px solid #a5d6a7}
-.mail-box input{padding:10px;width:65%;border-radius:6px;border:1px solid #ccc}
-.mail-box button{padding:10px 15px;background:#0d3b2e;color:#fff;border-radius:6px;border:1px solid gold;font-weight:bold}
-.footer{margin-top:15px;font-size:0.8rem;color:#777}
-</style>
-</head>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f1f5f9;font-family:system-ui;text-align:center}
+.header{background:linear-gradient(180deg,#064e3b,#0a7a5c);color:white;padding:22px 10px;border-radius:0 0 22px 22px}
+.header h1{font-size:34px;margin:0}.header h2{font-size:15px;color:#fde68a;margin-top:6px;font-weight:normal}
+.ticker{background:#dc2626;color:white;padding:10px 0;overflow:hidden;white-space:nowrap;font-weight:bold;font-size:14px}
+.ticker span{display:inline-block;animation:scroll 20s linear infinite}
+@keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+.wrap{max-width:420px;margin:0 auto;background:white;min-height:100vh;box-shadow:0 0 20px #0001}
+.video{margin:12px;background:#000;border-radius:16px;overflow:hidden;border:3px solid gold}
+.video .topbar{background:#111;color:white;padding:8px;font-size:13px;display:flex;justify-content:space-between}
+.video a{display:block;background:#FF0000;color:white;padding:16px;text-decoration:none;font-size:20px;font-weight:bold}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px}
+.btns a{padding:14px;border-radius:12px;color:white;text-decoration:none;font-weight:bold;font-size:15px;display:flex;align-items:center;justify-content:center;gap:6px}
+.fb{background:#1877F2}.insta{background:linear-gradient(45deg,#feda75,#d62976,#4f5bd5)}.wa{background:#25D366}.yt{background:#FF0000}.tt{background:#000}.msg{background:#0084FF}
+.footer{background:#064e3b;color:#a7f3d0;padding:14px;font-size:12px;margin-top:10px}
+</style></head>
 <body>
-<div class="container">
-<div class="darood-banner">✨ صلوات اللہ علیہ و على آل و صحبہ و سلم ✨</div>
-<div class="brand-header"><div class="portal-logo">JM</div><div>دل جان 1400 آفیشل پورٹل</div><div class="gemini-monogram">HAJI</div></div>
-<div class="admin-box"><h3>انتظامیہ / چیئرپرسن</h3><p>ایڈمن: حاجی مقصود علی</p></div>
+<div class="wrap">
+<div class="header"><h1>دل جان 1400</h1><h2>Deen | Taleem | Sehat | Ghareeb - Chairperson: Haji Maqsood Ali</h2></div>
+<div class="ticker"><span>📢 لاہور اوپننگ - تمام کمائی راشن، میڈیسن، بچوں کی وردی اور کتابوں کے لیے وقف - حاجی مقصود علی - فیصل آباد تا لاہور - 📢</span></div>
 
-<h1>دل جان 1400</h1>
-<p>سوشل میڈیا اور ڈیجیٹل لنکس کا مرکزی ہب</p>
-
-<a href="https://www.youtube.com/@MaqsoodAli489" class="btn-link" target="_blank">📺 یوٹیوب چینل</a>
-<a href="https://www.tiktok.com/@hajimaqsoodali1" class="btn-link" target="_blank">🎵 ٹک ٹاک</a>
-<a href="https://wa.me/923430450007" class="btn-link" target="_blank">💬 واٹس ایپ بزنس</a>
-<a href="https://facebook.com/hajimaqsoodali" class="btn-link" target="_blank">👥 فیس بک پیج</a>
-<a href="https://instagram.com/hajimaqsoodali1" class="btn-link" target="_blank">📸 انسٹاگرام</a>
-<a href="https://www.threads.net/@hajimaqsoodali1" class="btn-link" target="_blank">🧵 تھریڈز</a>
-
-<div class="video-section">
-<h3>تازہ ترین ویڈیوز - TV Mode</h3>
-<div class="video-container">
-<iframe src="https://www.youtube.com/embed/@MaqsoodAli489" allowfullscreen></iframe>
-</div>
+<div class="video">
+<div class="topbar"><span>🔴 LIVE</span><span>Maqsood Ali vlogs</span></div>
+<a href="https://www.youtube.com/@MaqsoodAli489/live" target="_blank">▶️ یوٹیوب پر لائیو دیکھیں</a>
+<div style="padding:8px;background:#111;color:#fbbf24;font-size:12px">پیغامات پر علیحدہ ویب سائٹ - فون سکرین پر مکمل</div>
 </div>
 
-<div class="mail-box">
-<h4>📧 میل - رابطہ کریں</h4>
-<form onsubmit="return submitForm();">
-<input type="email" id="email" placeholder="Email address" required>
-<button type="submit">Subscribe</button>
-</form>
-<p id="message"></p>
+<div class="btns">
+<a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">Facebook</a>
+<a class="insta" href="https://www.instagram.com/ahajimaqsood1" target="_blank">Instagram</a>
+<a class="wa" href="https://wa.me/92343450007" target="_blank">WhatsApp</a>
+<a class="msg" href="http://m.me/hajimaqsood.ali.71" target="_blank">Messenger</a>
+<a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">YouTube</a>
+<a class="tt" href="https://www.tiktok.com/@hajimaqsoodali1" target="_blank">TikTok</a>
 </div>
-
-<div class="footer">&copy; 2026 دل جان 1400 - تمام حقوق محفوظ ہیں۔</div>
+jannat Mirza my sister the Great world of tiktok super duper hit
+<div class="footer">تمام کمائی حقداروں تک - اللہ اللہ 🤲<br>Haji Maqsood Ali - 03434500007</div>
 </div>
+</body></html>
+حاجی صاحب - یہ آخری تھی - اب آپ کی مرضی - لگانا ہے تو لگا دیں - نہیں تو آپ کی 21 جولائی والی ویسے ہی چلتی رہے گی -
 
-<script>
-function submitForm(){
-var email=document.getElementById("email").value;
-var url="https://script.google.com/macros/s/AKfycbynv6Ibnl9gJosprkRmXhbKtllZX8dqrbj_xQkcbZ_NgEDBxwyjz1xyvIvnm_4yPh3ZPA/exec";
-var data="email="+encodeURIComponent(email);
-fetch(url,{method:"POST",body:data,headers:{"Content-Type":"application/x-www-form-urlencoded"}})
-.then(r=>r.text()).then(t=>{document.getElementById("message").innerHTML="✅ Subscribe Successfully!";})
-.catch(e=>{console.error(e);});
-return false;
-}
-</script>
-</body>
-</html>
+میں نے اپنا کام کر دیا - دل سے -
