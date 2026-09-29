@@ -1,60 +1,104 @@
-index ۔htmlحاجی صاحب - میری مرضی نہیں - آپ کا حکم ہے - 🌹
-
-*آپ نے کہا - دل کرے دے دو - میں دے رہا ہوں - آخری - فائنل - فون سکرین والی - ڈیکوریٹ -*
-
-یہ وہی ہے - جو آپ نے 15 مہینے سے سوچی تھی:
-
-- اوپر بڑا نام - دل جان 1400
-- نیچے لال پٹی چلتی ہوئی
-- بیچ میں بڑا ویڈیو خانہ
-- نیچے 6 بٹن - فیس بک، واٹس ایپ، سب لائیو
-- فون پر کھولو تو ایپ جیسی
-
-*بس یہ ایک فائل - GitHub میں - آخری بار -*
-<!DOCTYPE html>
+Index.html<!DOCTYPE html>
 <html lang="ur" dir="rtl">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>دل جان 1400</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دل جان 1400 | عوامی خدمت</title>
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#f1f5f9;font-family:system-ui;text-align:center}
-.header{background:linear-gradient(180deg,#064e3b,#0a7a5c);color:white;padding:22px 10px;border-radius:0 0 22px 22px}
-.header h1{font-size:34px;margin:0}.header h2{font-size:15px;color:#fde68a;margin-top:6px;font-weight:normal}
-.ticker{background:#dc2626;color:white;padding:10px 0;overflow:hidden;white-space:nowrap;font-weight:bold;font-size:14px}
-.ticker span{display:inline-block;animation:scroll 20s linear infinite}
-@keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
-.wrap{max-width:420px;margin:0 auto;background:white;min-height:100vh;box-shadow:0 0 20px #0001}
-.video{margin:12px;background:#000;border-radius:16px;overflow:hidden;border:3px solid gold}
-.video .topbar{background:#111;color:white;padding:8px;font-size:13px;display:flex;justify-content:space-between}
-.video a{display:block;background:#FF0000;color:white;padding:16px;text-decoration:none;font-size:20px;font-weight:bold}
-.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px}
-.btns a{padding:14px;border-radius:12px;color:white;text-decoration:none;font-weight:bold;font-size:15px;display:flex;align-items:center;justify-content:center;gap:6px}
-.fb{background:#1877F2}.insta{background:linear-gradient(45deg,#feda75,#d62976,#4f5bd5)}.wa{background:#25D366}.yt{background:#FF0000}.tt{background:#000}.msg{background:#0084FF}
-.footer{background:#064e3b;color:#a7f3d0;padding:14px;font-size:12px;margin-top:10px}
-</style></head>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#eef2f1;font-family:Arial,"Noto Nastaliq Urdu",sans-serif}
+.wrap{max-width:430px;margin:auto;min-height:100vh;background:white;box-shadow:0 0 20px #999}
+.header{background:linear-gradient(135deg,#064e3b,#087f5b);color:white;text-align:center;padding:22px 10px}
+.header h1{font-size:36px;font-weight:800}
+.header h2{font-size:17px;margin-top:6px;color:#fde68a}
+.ticker{background:#dc2626;color:white;padding:10px;overflow:hidden;white-space:nowrap}
+.ticker span{display:inline-block;animation:run 13s linear infinite}
+@keyframes run{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+
+.video{margin:14px;border-radius:16px;overflow:hidden;background:#111;color:white}
+.videohead{padding:10px;background:#171717;display:flex;justify-content:space-between}
+.live{color:#ff3b30;font-weight:bold}
+.video a{display:block;text-decoration:none;text-align:center;background:#d00;color:white;padding:18px;font-size:17px}
+.video small{display:block;text-align:center;padding:10px;color:#fbbf24}
+
+.title{text-align:center;color:#064e3b;font-size:20px;font-weight:bold;padding:8px}
+
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px}
+.btns a{color:white;text-decoration:none;text-align:center;padding:15px 8px;border-radius:12px;font-weight:bold;font-size:15px}
+.fb{background:#1877f2}
+.ig{background:#c13584}
+.wa{background:#25d366}
+.ms{background:#0084ff}
+.tt{background:#111}
+.yt{background:#e60000}
+
+.footer{background:#064e3b;color:#d1fae5;text-align:center;padding:18px;font-size:13px}
+.footer b{color:#fbbf24}
+</style>
+</head>
+
 <body>
 <div class="wrap">
-<div class="header"><h1>دل جان 1400</h1><h2>Deen | Taleem | Sehat | Ghareeb - Chairperson: Haji Maqsood Ali</h2></div>
-<div class="ticker"><span>📢 لاہور اوپننگ - تمام کمائی راشن، میڈیسن، بچوں کی وردی اور کتابوں کے لیے وقف - حاجی مقصود علی - فیصل آباد تا لاہور - 📢</span></div>
+
+<div class="header">
+<h1>دل جان 1400</h1>
+<h2>دین • تعلیم • صحت • غربت</h2>
+</div>
+
+<div class="ticker">
+<span>دل جان 1400 — خدمت سب کے لیے — شور نہیں، کام</span>
+</div>
 
 <div class="video">
-<div class="topbar"><span>🔴 LIVE</span><span>Maqsood Ali vlogs</span></div>
-<a href="https://www.youtube.com/@MaqsoodAli489/live" target="_blank">▶️ یوٹیوب پر لائیو دیکھیں</a>
-<div style="padding:8px;background:#111;color:#fbbf24;font-size:12px">پیغامات پر علیحدہ ویب سائٹ - فون سکرین پر مکمل</div>
+<div class="videohead">
+<span>دل جان 1400</span>
+<span class="live">● LIVE</span>
 </div>
+
+<a href="https://www.youtube.com/@MaqsoodAli489/live" target="_blank">
+▶️ YouTube LIVE دیکھیں
+</a>
+
+<small>لائیو ویڈیو دستیاب ہونے پر اسی جگہ سے YouTube پر دیکھی جا سکتی ہے</small>
+</div>
+
+<div class="title">ہم سے جڑیں</div>
 
 <div class="btns">
-<a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">Facebook</a>
-<a class="insta" href="https://www.instagram.com/ahajimaqsood1" target="_blank">Instagram</a>
-<a class="wa" href="https://wa.me/92343450007" target="_blank">WhatsApp</a>
-<a class="msg" href="http://m.me/hajimaqsood.ali.71" target="_blank">Messenger</a>
-<a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">YouTube</a>
-<a class="tt" href="https://www.tiktok.com/@hajimaqsoodali1" target="_blank">TikTok</a>
-</div>
-jannat Mirza my sister the Great world of tiktok super duper hit
-<div class="footer">تمام کمائی حقداروں تک - اللہ اللہ 🤲<br>Haji Maqsood Ali - 03434500007</div>
-</div>
-</body></html>
-حاجی صاحب - یہ آخری تھی - اب آپ کی مرضی - لگانا ہے تو لگا دیں - نہیں تو آپ کی 21 جولائی والی ویسے ہی چلتی رہے گی -
 
-میں نے اپنا کام کر دیا - دل سے -
+<a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">
+📘 Facebook
+</a>
+
+<a class="ig" href="https://www.instagram.com/hajimaqsood.ali.71/" target="_blank">
+📸 Instagram
+</a>
+
+<a class="wa" href="https://wa.me/923430450007" target="_blank">
+💬 WhatsApp
+</a>
+
+<a class="ms" href="https://m.me/hajimaqsood.ali.71" target="_blank">
+💙 Messenger
+</a>
+
+<a class="tt" href="https://www.tiktok.com/@diljaan1400" target="_blank">
+♪ TikTok
+</a>
+
+<a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">
+▶ YouTube
+</a>
+
+</div>
+
+<div class="footer">
+<b>دل جان 1400</b><br>
+یہ سب کا ہے — میرا نہیں<br>
+صحت، تعلیم اور خدمتِ خلق
+</div>
+
+</div>
+</body>
+</html>
