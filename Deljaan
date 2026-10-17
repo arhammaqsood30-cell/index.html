@@ -1,104 +1,180 @@
-index.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>دل جان 1400 | عوامی خدمت</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دل جان 1400 - Deen Islam 1400</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:#eef2f1;font-family:Arial,"Noto Nastaliq Urdu",sans-serif}
-.wrap{max-width:430px;margin:auto;min-height:100vh;background:white;box-shadow:0 0 20px #999}
-.header{background:linear-gradient(135deg,#064e3b,#087f5b);color:white;text-align:center;padding:22px 10px}
-.header h1{font-size:36px;font-weight:800}
-.header h2{font-size:17px;margin-top:6px;color:#fde68a}
-.ticker{background:#dc2626;color:white;padding:10px;overflow:hidden;white-space:nowrap}
-.ticker span{display:inline-block;animation:run 13s linear infinite}
-@keyframes run{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fefcf3;
+    text-align: center;
+    color: #333;
+}
+.header {
+    background: #064u3b;
+    color: white;
+    padding: 28px 15px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+.badge {
+    background: gold;
+    color: #000;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Live Net Status Indicator */
+.status-bar {
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    margin: 15px auto;
+    max-width: 780px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 8px #4CAF50;
+}
+.offline-dot {
+    background-color: #f44336;
+    box-shadow: 0 0 8px #f44336;
+}
+/* Section Grid */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding: 20px;
+}
+.card {
+    width: 155px;
+    background: white;
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-top: 4px solid #064u3b;
+}
+/* Auto Video Frame */
+.live {
+    max-width: 780px;
+    margin: 15px auto;
+    background: #000;
+    border-radius: 14px;
+    padding: 10px;
+}
+/* 6 Main Links Grid */
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 22px;
+}
+.social a {
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+.social a:hover {
+    transform: translateY(-2px);
+}
+.fb { background: #1877F2; }
+.insta { background: #E4405F; }
+.msg { background: #0084FF; }
+.wa { background: #25D366; }
+.yt { background: #FF0000; }
+.tt { background: #000000; }
+.dash { background: #8e44ad; border: 2px solid gold; width: 100%; max-width: 300px; margin-top: 10px; }
 
-.video{margin:14px;border-radius:16px;overflow:hidden;background:#111;color:white}
-.videohead{padding:10px;background:#171717;display:flex;justify-content:space-between}
-.live{color:#ff3b30;font-weight:bold}
-.video a{display:block;text-decoration:none;text-align:center;background:#d00;color:white;padding:18px;font-size:17px}
-.video small{display:block;text-align:center;padding:10px;color:#fbbf24}
-
-.title{text-align:center;color:#064e3b;font-size:20px;font-weight:bold;padding:8px}
-
-.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px}
-.btns a{color:white;text-decoration:none;text-align:center;padding:15px 8px;border-radius:12px;font-weight:bold;font-size:15px}
-.fb{background:#1877f2}
-.ig{background:#c13584}
-.wa{background:#25d366}
-.ms{background:#0084ff}
-.tt{background:#111}
-.yt{background:#e60000}
-
-.footer{background:#064e3b;color:#d1fae5;text-align:center;padding:18px;font-size:13px}
-.footer b{color:#fbbf24}
+.footer-text {
+    color: #666;
+    font-size: 12px;
+    padding: 15px;
+}
 </style>
 </head>
-
 <body>
-<div class="wrap">
 
 <div class="header">
-<h1>دل جان 1400</h1>
-<h2>دین • تعلیم • صحت • غربت</h2>
+    <h1>دل جان 1400</h1>
+    <p>دین | تعلیم | صحت | عزت - 1400 سالہ دین کی خدمت</p>
+    <div class="badge">Chairperson: Jannat Mirza | Haji Maqsood Ali</div>
 </div>
 
-<div class="ticker">
-<span>دل جان 1400 — خدمت سب کے لیے — شور نہیں، کام</span>
+<!-- Net Activation & Portal Status -->
+<div class="status-bar">
+    <div><span class="dot" id="portal-dot"></span> پورتل: لائیو (Live)</div>
+    <div id="net-text"><span class="dot" id="net-dot"></span> نیٹ ورک: متحرک (Active)</div>
 </div>
 
-<div class="video">
-<div class="videohead">
-<span>دل جان 1400</span>
-<span class="live">● LIVE</span>
+<!-- 4 Core Category Cards -->
+<div class="grid">
+    <div class="card"><h3>دین اسلام</h3></div>
+    <div class="card"><h3>تعلیم</h3></div>
+    <div class="card"><h3>صحت</h3></div>
+    <div class="card"><h3>عزت</h3></div>
 </div>
 
-<a href="https://www.youtube.com/@MaqsoodAli489/live" target="_blank">
-▶️ YouTube LIVE دیکھیں
-</a>
-
-<small>لائیو ویڈیو دستیاب ہونے پر اسی جگہ سے YouTube ر دیکھی جا سک
+<!-- Auto-Updated YouTube Channel Embed -->
+<div class="live">
+    <h3 style="color:white; margin:6px;">📺 YouTube Live Stream & Uploads</h3>
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed?listType=user_uploads&list=MaqsoodAli489" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="title">ہم سے جڑیں</div>
-
-<div class="btns">
-
-<a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">
-📘 Facebook
-</a>
-
-<a class="ig" href="https://www.instagram.com/hajimaqsood.ali.71/" target="_blank">
-📸 Instagram
-</a>
-
-<a class="wa" href="https://wa.me/923430450007" target="_blank">
-💬 WhatsApp
-</a>
-
-<a class="ms" href="https://m.me/hajimaqsood.ali.71" target="_blank">
-💙 Messenger
-</a>
-
-<a class="tt" href="https://www.tiktok.com/@diljaan1400" target="_blank">
-♪ TikTok
-</a>
-
-<a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">
-▶ YouTube0
-</a>
-
+<!-- 6 Social Buttons + Master Dashboard -->
+<div class="social">
+    <a class="yt" href="https://www.youtube.com/@MaqsoodAli489" target="_blank">YouTube</a>
+    <a class="fb" href="https://www.facebook.com/hajimaqsood.ali.71" target="_blank">Facebook</a>
+    <a class="insta" href="https://www.instagram.com/ahajimaqsood1" target="_blank">Instagram</a>
+    <a class="tt" href="https://www.tiktok.com/@hajimaqsoodali1" target="_blank">TikTok</a>
+    <a class="msg" href="https://m.me/hajimaqsood.ali.71" target="_blank">Messenger</a>
+    <a class="wa" href="https://wa.me/92343450007" target="_blank">WhatsApp</a>
+    
+    <a class="dash" href="https://arhammaqsood30-cell.github.io/index.html" target="_blank">⚙️ Master Dashboard</a>
 </div>
 
-<div class="footer">
-<b>دل جان 1400</b><br>
-یہ سب کا ہے — میرا نہیں<br>
-صحت، تعلیم اور خدمتِ خلق
-</div>
+<p class="footer-text">تمام کمائی راشن، میڈیسن، بچوں کی وردی، کتابوں اور مدارس کے لیے وقف ہے۔</p>
 
-</div>
+<!-- Internet Detector Script -->
+<script>
+function updateStatus() {
+    const netText = document.getElementById('net-text');
+    const netDot = document.getElementById('net-dot');
+    if (navigator.onLine) {
+        netText.innerHTML = '<span class="dot"></span> نیٹ ورک: متحرک (Active)';
+    } else {
+        netText.innerHTML = '<span class="dot offline-dot"></span> نیٹ ورک: بند (Offline)';
+    }
+}
+window.addEventListener('online', updateStatus);
+window.addEventListener('offline', updateStatus);
+updateStatus();
+</script>
+
 </body>
 </html>
